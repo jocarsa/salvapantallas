@@ -1,0 +1,3258 @@
+Tag: <a>
+Defines a hyperlink.
+
+Tag: <abbr>
+Defines an abbreviation or an acronym, providing a full term or explanation.
+
+Tag: <acronym>
+Defines an acronym. Obsolete in HTML5, use <abbr> instead.
+
+Tag: <address>
+Specifies contact information for the author/owner of a document or an article.
+
+Tag: <animate>
+Defines an animation that applies to SVG elements. Part of SVG, not standard HTML.
+
+Tag: <animatemotion>
+Causes an element to move along a motion path. Part of SVG animations.
+
+Tag: <animatetransform>
+Applies animated transformations to SVG elements. Part of SVG animations.
+
+Tag: <applet>
+Embeds a Java applet. Obsolete in HTML5, replaced by <object>.
+
+Tag: <area>
+Defines an area inside an image map that has predefined clickable areas.
+
+Tag: <article>
+Specifies independent, self-contained content that could stand alone from the rest of the content.
+
+Tag: <aside>
+Defines content aside from the page content, often used for sidebars, inserts, or non-essential information.
+
+Tag: <audio>
+Used to embed sound content in documents, allowing playback of audio files.
+
+Tag: <b>
+Renders text in boldface, used to draw attention without implying any added importance or urgency.
+
+Tag: <base>
+Specifies the base URL/target for all relative URLs in a document, setting a common base for all links and references within the page.
+
+Tag: <basefont>
+Obsolete. Was used to specify a default font size, color, and face for all text in a document.
+
+Tag: <bdi>
+Isolates a part of text that might be formatted in a different direction from other text outside it, useful for user-generated content.
+
+Tag: <bdo>
+Overrides the current text direction, allowing manual control over text directionality (left-to-right or right-to-left).
+
+Tag: <bgsound>
+Obsolete and non-standard. Was used to specify background sound on a web page.
+
+Tag: <big>
+Obsolete. Was used to increase the font size of a text, making it larger than the surrounding text.
+
+Tag: <blink>
+Obsolete and non-standard. Was used to create blinking text, considered problematic for accessibility and usability.
+
+Tag: <blockquote>
+Defines a section that is quoted from another source, often used for longer quotes that take up an entire block of text.
+
+Tag: <body>
+Represents the content of an HTML document. There can be only one <body> element in a document.
+
+Tag: <br>
+Produces a line break in text, used to create a new line within an HTML document.
+
+Tag: <button>
+Defines a clickable button, which can be used in forms or anywhere in a document that needs simple, standard button functionality.
+
+Tag: <canvas>
+Used to draw graphics on the fly via scripting (usually JavaScript). It can be used for rendering graphs, game graphics, or other visual images on the fly.
+
+Tag: <caption>
+Specifies the caption (or title) of a table, which by default is centered above the table.
+
+Tag: <center>
+Obsolete. Was used to center-align text. Modern web design uses CSS to achieve text alignment.
+
+Tag: <cite>
+Defines the title of a creative work (e.g., book, poem, song, movie). It implies semantic importance and typically renders in italic.
+
+Tag: <code>
+Defines a piece of computer code. Its content is displayed in a monospace font, preserving spaces and line breaks.
+
+Tag: <col>
+Specifies column properties for each column within a `<colgroup>` element. It is used to apply CSS styles to entire columns, rather than individual table cells.
+
+Tag: <colgroup>
+Defines a group of one or more columns in a table for formatting.
+
+Tag: <command>
+Obsolete. Was used to define a command button that users could invoke.
+
+Tag: <content>
+Not standard. Previously used in Web Components technology, now replaced by `<slot>` in the Shadow DOM.
+
+Tag: custom tags
+Used with Web Components; allows developers to create their own custom HTML tags with custom behavior and properties.
+
+Tag: <data>
+Associates a machine-readable equivalent with its content for user-defined data.
+
+Tag: <datalist>
+Contains a set of `<option>` elements that represent the permissible or recommended options to choose from in other controls.
+
+Tag: <dd>
+Defines the description, definition, or value part of a term in a description list (`<dl>`).
+
+Tag: <del>
+Defines text that has been deleted from a document.
+
+Tag: <details>
+Defines additional details that the user can view or hide on demand.
+
+Tag: <dfn>
+Represents the defining instance of a term.
+
+Tag: <dialog>
+Defines a dialog box or window that can be toggled by the user.
+
+Tag: <dir>
+Obsolete. Was used to create a directory list. Use `<ul>` instead.
+
+Tag: <discard>
+Not standard. No widely recognized implementation or usage.
+
+Tag: <div>
+Defines a division or a section in an HTML document, used as a container for HTML elements.
+
+Tag: <dl>
+Defines a description list, a list of terms and their corresponding descriptions.
+
+Tag: <dt>
+Defines a term/name in a description list (`<dl>`).
+
+Tag: element
+Not standard in the context of HTML elements. In Web Components, custom elements are defined using classes that extend HTMLElement.
+
+Tag: <em>
+Defines emphasized text, which is typically displayed in italics to denote emphasis.
+
+Tag: <embed>
+Defines a container for an external application or interactive content (a plug-in).
+
+Tag: <fieldset>
+Groups related elements and labels within a web form.
+
+Tag: <figcaption>
+Defines a caption for a `<figure>` element.
+
+Tag: <figure>
+Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc., often with a caption (`<figcaption>`).
+
+Tag: <font>
+Obsolete. Was used to define font size, color, and face for text. Use CSS instead.
+
+Tag: <footer>
+Defines a footer for a document or a section, typically containing authorship information, copyright notices, contact information, and other related details.
+
+Tag: <form>
+Defines an HTML form for user input, containing form elements such as text fields, checkboxes, radio buttons, and submit buttons.
+
+Tag: <frame>
+Obsolete. Defined a particular area within a `<frameset>` where a document could be displayed. Use `<iframe>` or CSS instead for layouts.
+
+Tag: <frameset>
+Obsolete. Used to define a collection of frames or framesets. Replaced by CSS for layout.
+
+Tag: <h1>-<h6>
+Define HTML headings, `<h1>` being the highest level and `<h6>` the lowest.
+
+Tag: <head>
+Contains meta-information about the document, such as `<title>`, `<style>`, and `<meta>` tags.
+
+Tag: <header>
+Defines a header for a document or a section, typically containing introductory content or a set of navigational links.
+
+Tag: <hgroup>
+Obsolete. Was used to group a set of `<h1>`–`<h6>` elements when a section has multiple headings.
+
+Tag: <hr>
+Represents a thematic break between paragraph-level elements, for example, a change of scene in a story, or a shift of topic within a section.
+
+Tag: <html>
+Defines the root of an HTML document and contains the document's structure (`<head>` and `<body>`).
+
+Tag: <i>
+Defines a part of text in an alternate voice or mood, or otherwise offset from the normal prose, typically displayed in italics.
+
+Tag: <iframe>
+Defines an inline frame that embeds another document within the current HTML document.
+
+Tag: <img>
+Embeds an image in an HTML document.
+
+Tag: <input>
+Defines an input control.
+
+Tag: <ins>
+Defines a text that has been inserted into a document.
+
+Tag: <kbd>
+Defines keyboard input.
+
+Tag: <keygen>
+Obsolete. Was used to facilitate generation of key material, and submission of the public key as part of an HTML form.
+
+Tag: <label>
+Defines a label for an `<input>` element.
+
+Tag: <legend>
+Defines a caption for a `<fieldset>`, `<figure>`, or `<details>` element.
+
+Tag: <li>
+Defines a list item.
+
+Tag: <link>
+Defines the relationship between a document and an external resource, typically used to link to stylesheets.
+
+Tag: <main>
+Specifies the main content of a document.
+
+Tag: <map>
+Defines a client-side image map.
+
+Tag: <mark>
+Defines text that should be highlighted or marked for reference or notation purposes, often used to highlight a part of text.
+
+Tag: <marquee>
+Obsolete. Was used to create scrolling text or images. Modern web development uses CSS animations for similar effects.
+
+Tag: <menu>
+Defines a menu or list of commands, more recently being specified as a semantic way to represent a list of items that are commands or options.
+
+Tag: <menuitem>
+Obsolete. Was used to define a command/menu item that the user could invoke from a popup menu created with the `<menu>` element.
+
+Tag: <meta>
+Defines metadata about the HTML document, such as character set, page description, keywords, author of the document, and viewport settings.
+
+Tag: <meter>
+Represents a scalar measurement within a known range, or a fractional value; for example, disk usage or the relevance of a query result.
+
+Tag: <multicol>
+Obsolete and non-standard. Was proposed to allow multi-column layouts in HTML documents.
+
+Tag: <nav>
+Defines a set of navigation links. It is intended for sections of a page that provide navigation links.
+
+Tag: <nextid>
+Obsolete and non-standard. Was used in early HTML documents to help browsers with layout.
+
+Tag: <nobr>
+Obsolete and non-standard. Was used to prevent text from breaking into a new line.
+
+Tag: <noembed>
+Obsolete. Provides alternative content for users whose browsers do not support embedded content.
+
+Tag: <noframes>
+Obsolete. Provides alternative content for users whose browsers do not support frames.
+
+Tag: <noscript>
+Defines alternative content to be displayed to users who have disabled scripts in their browser or have a browser that doesn't support client-side scripting.
+
+Tag: <object>
+Defines an embedded object within an HTML document. It can be used to include various types of data and more complex multimedia elements.
+
+Tag: <ol>
+Defines an ordered list of items, typically rendered as a numbered list.
+
+Tag: <optgroup>
+Defines a group of related options in a drop-down list (`<select>` element).
+
+Tag: <option>
+Defines an option in a drop-down list within a `<select>` or `<datalist>` element.
+
+Tag: <output>
+Represents the result of a calculation or user action.
+
+Tag: <p>
+Defines a paragraph. It is a block-level element that contains text.
+
+Tag: <param>
+Defines parameters for an `<object>` element, used to configure the object or embed plugin features.
+
+Tag: portal
+Not officially part of the HTML specification. Potentially related to modern web APIs or frameworks.
+
+Tag: <picture>
+Allows for more flexible image delivery by defining multiple `<source>` elements for different display scenarios.
+
+Tag: plaintext
+Obsolete. Was used to render text plainly, without HTML interpretation. Modern HTML does not use this element.
+
+Tag: <pre>
+Defines preformatted text. Content within a `<pre>` element is displayed in a fixed-width font, and it preserves spaces and line breaks.
+
+Tag: <progress>
+Represents the progress of a task, such as downloading, uploading, or any other progress indication.
+
+Tag: <q>
+Defines a short inline quotation. Browsers typically surround the content with quotation marks.
+
+Tag: rtc
+Used to mark ruby text container for ruby text components in East Asian typography.
+
+Tag: <ruby>
+Represents a ruby annotation, used for East Asian typographic layout to provide pronunciation guides.
+
+Tag: <s>
+Renders text with a strikethrough, or a line through it. Used to indicate text that is no longer relevant or has been deleted.
+
+Tag: <samp>
+Defines sample output from a computer program. Typically, it's displayed in a monospace font.
+
+Tag: <script>
+Used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.
+
+Tag: search
+Not an HTML element on its own. Typically refers to `<input type='search'>`, which is used to define a search field.
+
+Tag: <section>
+Defines a section in a document, such as chapters, headers, footers, or any other sections of the document.
+
+Tag: <select>
+Creates a drop-down list for selecting one or more options.
+
+Tag: set
+Not standard in HTML. In SVG, `<set>` is used to define a simple animation where one attribute changes to a new value over a specified duration.
+
+Tag: shadow
+Previously part of Web Components; `<shadow>` is used with Shadow DOM. Modern usage involves attaching a shadow DOM directly to an element via JavaScript.
+
+Tag: <slot>
+A placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.
+
+Tag: <small>
+Makes the text smaller in size compared to surrounding text, typically used for fine print or side comments.
+
+Tag: <source>
+Specifies multiple media resources for the <picture>, <audio>, or <video> elements, allowing the browser to choose the best fit.
+
+Tag: spacer
+Non-standard and obsolete. Was used to create space in a page layout; modern web design uses CSS for spacing.
+
+Tag: <span>
+Defines a section in a document for styling purposes without conveying any special meaning.
+
+Tag: <strike>
+Deprecated. Represents text that has been struck through. Use the <del> or <s> tag instead.
+
+Tag: <strong>
+Indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold.
+
+Tag: <style>
+Contains style information for a document, or part of a document.
+
+Tag: <sub>
+Defines subscript text, which appears half a character below the normal line.
+
+Tag: <summary>
+Defines a visible heading for a <details> element, which can be clicked to view or hide the <details> content.
+
+Tag: <sup>
+Defines superscript text, which appears half a character above the normal line.
+
+Tag: <svg>
+Defines a container for SVG graphics and allows you to define vector-based graphics in XML format.
+
+Tag: <table>
+Defines a table.
+
+Tag: <tbody>
+Groups the body content in a table.
+
+Tag: <td>
+Defines a cell in a table.
+
+Tag: <template>
+Holds content that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime.
+
+Tag: <textarea>
+Defines a multi-line text input control.
+
+Tag: <tfoot>
+Groups the footer content in a table.
+
+Tag: <th>
+Defines a header cell in a table.
+
+Tag: <thead>
+Groups the header content in a table.
+
+Tag: <time>
+Represents a specific period in time.
+
+Tag: <title>
+Defines the title of the document, shown in the browser's title bar or page's tab.
+
+Tag: <tr>
+Defines a row in a table.
+
+Tag: <track>
+Used as a child of the <audio> or <video> elements, and enables subtitles or captions.
+
+Tag: <tt>
+Deprecated. Represents teletype or monospaced text. Use CSS instead.
+
+Tag: <u>
+Represents non-textually underlined text, such as proper names in Chinese text, or for stylistic purposes.
+
+Tag: <ul>
+Defines an unordered list.
+
+Tag: <var>
+Represents a variable in a mathematical expression or a programming context.
+
+Tag: <video>
+Embeds video content in a document.
+
+Tag: <wbr>
+Represents a line break opportunity for very long words or strings of text without spaces.
+
+Tag: <xmp>
+Deprecated. Was used to preformat text, preserving spaces and line breaks. Use <pre> instead.
+
+Tag: align-content
+Adjusts the alignment of flexible container's items within the cross axis.
+
+Tag: align-items
+Aligns items in a flexible container or grid along the cross axis.
+
+Tag: align-self
+Allows the default alignment or the ability to override the alignment for individual flex items.
+
+Tag: alignment-adjust
+Property in SVG content to adjust the alignment on the baseline.
+
+Tag: alignment-baseline
+Specifies how an element's baseline is aligned within its text content area.
+
+Tag: all
+Resets all properties (except unicode-bidi and direction) to their initial or inherited values.
+
+Tag: alt
+Used in HTML to specify alternative text to display if an image cannot be shown, not a CSS property.
+
+Tag: animation
+Shorthand property to configure all animation properties at once.
+
+Tag: animation-delay
+Specifies a delay for the start of an animation.
+
+Tag: animation-direction
+Defines whether an animation should play forwards, backwards, or alternate between playing forwards and backwards.
+
+Tag: animation-duration
+Specifies the length of time an animation should take to complete one cycle.
+
+Tag: animation-fill-mode
+Defines how a CSS animation should apply styles to its target before and after its execution.
+
+Tag: animation-iteration-count
+Defines the number of times an animation cycle should be played before stopping.
+
+Tag: animation-name
+Specifies the name of the @keyframes animation to use.
+
+Tag: animation-play-state
+Specifies whether the animation is running or paused.
+
+Tag: animation-timing-function
+Describes how the animation progresses through the duration of each cycle.
+
+Tag: azimuth
+Defines the sound-source position in stereo sound. It's used with aural media.
+
+Tag: backface-visibility
+Determines whether or not the back face of an element is visible when turned towards the user.
+
+Tag: background
+A shorthand property for setting all background style properties at once.
+
+Tag: background-attachment
+Determines whether a background image is fixed with regard to the viewport or scrolls with the containing block.
+
+Tag: background-clip
+Defines how far the background (color or image) should extend within an element.
+
+Tag: background-color
+Specifies the background color of an element.
+
+Tag: background-image
+Specifies one or more background images for an element.
+
+Tag: background-origin
+Specifies the origin position of a background image.
+
+Tag: background-position
+Specifies the initial position of a background image.
+
+Tag: background-repeat
+Defines how background images are repeated.
+
+Tag: background-size
+Specifies the size of the background images.
+
+Tag: background-blend-mode
+Defines the blending mode of each background layer (color and/or image).
+
+Tag: baseline-shift
+Adjusts the position of an element's baseline.
+
+Tag: bleed
+Specifies how far an element's box extends beyond the page box for page-related properties in print media.
+
+Tag: bookmark-label
+Specifies the content to be used as the label for a bookmark.
+
+Tag: bookmark-level
+Specifies the level of the bookmark in a way that structures the document outline generated in a PDF.
+
+Tag: bookmark-state
+Specifies whether a bookmark is open or closed by default when the document is first opened.
+
+Tag: border
+A shorthand property for setting all border properties (width, style, and color) at once.
+
+Tag: border-color
+Specifies the color of the border. Can set different colors for each side.
+
+Tag: border-style
+Specifies the style of the border (e.g., solid, dashed, or dotted). Can set different styles for each side.
+
+Tag: border-width
+Specifies the width of the border. Can set different widths for each side.
+
+Tag: border-bottom
+A shorthand property for setting all the bottom border properties.
+
+Tag: border-bottom-color
+Specifies the color of the bottom border.
+
+Tag: border-bottom-style
+Specifies the style of the bottom border.
+
+Tag: border-bottom-width
+Specifies the width of the bottom border.
+
+Tag: border-left
+A shorthand property for setting all the left border properties.
+
+Tag: border-left-color
+Specifies the color of the left border.
+
+Tag: border-left-style
+Specifies the style of the left border.
+
+Tag: border-left-width
+Specifies the width of the left border.
+
+Tag: border-right
+A shorthand property for setting all the right border properties.
+
+Tag: border-right-color
+Specifies the color of the right border.
+
+Tag: border-right-style
+Specifies the style of the right border.
+
+Tag: border-right-width
+Specifies the width of the right border.
+
+Tag: border-top
+A shorthand property for setting all the top border properties at once.
+
+Tag: border-top-color
+Specifies the color of the top border.
+
+Tag: border-top-style
+Specifies the style of the top border (e.g., solid, dashed).
+
+Tag: border-top-width
+Specifies the width of the top border.
+
+Tag: border-collapse
+Specifies whether table borders should collapse into a single border or be separated.
+
+Tag: border-image
+A shorthand property for setting all the border-image-* properties at once.
+
+Tag: border-image-outset
+Specifies the amount by which the border image area extends beyond the border box.
+
+Tag: border-image-repeat
+Specifies how the images for the sides and the middle part of a border image are scaled and tiled.
+
+Tag: border-image-slice
+Specifies how to slice the border image.
+
+Tag: border-image-source
+Specifies the path to the image to be used as a border.
+
+Tag: border-image-width
+Specifies the widths of the image-border.
+
+Tag: border-radius
+Defines the radius of the element's corners.
+
+Tag: border-bottom-left-radius
+Defines the radius of the bottom-left corner.
+
+Tag: border-bottom-right-radius
+Defines the radius of the bottom-right corner.
+
+Tag: border-top-left-radius
+Defines the radius of the top-left corner.
+
+Tag: border-top-right-radius
+Defines the radius of the top-right corner.
+
+Tag: border-spacing
+Specifies the spacing between the borders of adjacent table cells.
+
+Tag: bottom
+Specifies the position of the bottom edge of the positioned element.
+
+Tag: box-decoration-break
+Specifies how an element's decorations are drawn across multiple lines, boxes, or fragments.
+
+Tag: box-shadow
+Applies one or more shadows to an element. It can define the shadow's color, blur radius, offset, and spread radius.
+
+Tag: box-sizing
+Defines how the width and height of an element are calculated: should they include padding and borders, or not.
+
+Tag: box-snap
+A non-standard property that was proposed to control the snapping of boxes in a layout but is not widely supported.
+
+Tag: break-after
+Specifies how page, column, or region breaks should behave after the generated box.
+
+Tag: break-before
+Specifies how page, column, or region breaks should behave before the generated box.
+
+Tag: break-inside
+Prevents page, column, or region breaks from occurring within a specified box.
+
+Tag: buffered-rendering
+Non-standard. Suggests to the browser whether graphical elements should buffer their rendering to improve performance.
+
+Tag: caption-side
+Specifies the placement of a table caption.
+
+Tag: clear
+Specifies whether an element must be moved below floating elements that precede it.
+
+Tag: clear-side
+Non-standard and does not exist in formal CSS specifications. Possibly confused with the 'clear' property.
+
+Tag: clip
+Deprecated. Defines the clipping region of an absolutely positioned element.
+
+Tag: clip-path
+Specifies a clipping path where only the part of the element that is within the path will be visible.
+
+Tag: clip-rule
+Specifies the filling rule for paths within a `<clipPath>` element. It is a property related to SVG.
+
+Tag: color
+Sets the color of the text.
+
+Tag: color-adjust
+Provides control over the color adjustment algorithm used by the browser to adapt the colors of the content to the colors of the output device.
+
+Tag: color-correction
+Non-standard and not widely supported. Intended to control color correction in browsers.
+
+Tag: color-interpolation
+Specifies the color space for interpolation in gradients, transforms, and other compositional effects.
+
+Tag: color-interpolation-filters
+Specifies the color space for interpolation of colors for filters. It's specifically for SVG elements or CSS filters applied to HTML elements.
+
+Tag: color-profile
+Specifies the color profile used for color rendering. Mostly applicable in SVG graphics.
+
+Tag: color-rendering
+Provides a hint to the browser about the color rendering algorithm to use for SVG and CSS properties like `background`, `color`, `border-color`.
+
+Tag: column-fill
+Controls how content is distributed to fill columns, balancing content evenly or filling each column sequentially.
+
+Tag: column-gap
+Specifies the gap between columns in a multi-column layout.
+
+Tag: column-rule
+A shorthand property for setting `column-rule-width`, `column-rule-style`, and `column-rule-color` at once.
+
+Tag: column-rule-color
+Specifies the color of the rule (line) drawn between columns in a multi-column layout.
+
+Tag: column-rule-style
+Specifies the style of the rule (line) drawn between columns in a multi-column layout.
+
+Tag: column-rule-width
+Specifies the width of the rule (line) drawn between columns in a multi-column layout.
+
+Tag: column-span
+Allows an element to span across all columns when inside a multi-column layout.
+
+Tag: columns
+A shorthand property for setting both `column-width` and `column-count` at once.
+
+Tag: column-count
+Specifies the number of columns in a multi-column layout.
+
+Tag: column-width
+Specifies the optimal width of the columns in a multi-column layout.
+
+Tag: contain
+Indicates that an element and its contents are, as much as possible, independent of the rest of the document tree.
+
+Tag: content
+Used with the `::before` and `::after` pseudo-elements, to insert generated content.
+
+Tag: counter-increment
+Increases or decreases the value of one or more CSS counters.
+
+Tag: counter-reset
+Creates or resets one or more CSS counters.
+
+Tag: counter-set
+Sets the value of one or more CSS counters.
+
+Tag: cue
+Specifies the sound to be played before or after an element's content, commonly used with speech media.
+
+Tag: cue-after
+Specifies the sound to be played after the element's content has been spoken.
+
+Tag: cue-before
+Specifies the sound to be played before the element's content is spoken.
+
+Tag: cursor
+Specifies the type of cursor to be displayed when pointing over an element.
+
+Tag: direction
+Specifies the text direction/writing direction. Values are 'ltr' (left to right) or 'rtl' (right to left).
+
+Tag: display
+Specifies how an element is displayed on the screen. Common values include 'block', 'inline', 'flex', 'grid', etc.
+
+Tag: display-inside
+Experimental. Specifies the inner display type of an element, determining its layout inside.
+
+Tag: display-outside
+Experimental. Specifies the outside display type, influencing layout behavior on the element itself.
+
+Tag: display-extras
+Non-standard. No widely recognized implementation or usage.
+
+Tag: display-box
+Non-standard. No widely recognized implementation or usage.
+
+Tag: dominant-baseline
+Specifies the dominant baseline, which is the baseline used to align the box's text and inline-level contents.
+
+Tag: elevation
+Specifies the elevation of the speaking voice for the 'cue' properties, simulating a three-dimensional spatial positioning.
+
+Tag: empty-cells
+Specifies whether to show or hide borders and backgrounds of table cells that have no content.
+
+Tag: enable-background
+Deprecated. Was used in SVG to define how the background accumulates.
+
+Tag: fill
+Specifies the color to use inside the object (used in SVG).
+
+Tag: fill-opacity
+Specifies the opacity of the color or the content the 'fill' property applies to (used in SVG).
+
+Tag: fill-rule
+Determines the algorithm to use to determine what parts of the canvas are filled when rendering an SVG 'path'.
+
+Tag: filter
+Applies graphical effects like blur or color shift to an element.
+
+Tag: float
+Specifies how an element should float to the left, right, or none.
+
+Tag: float-defer-column
+Non-standard. No widely recognized implementation or usage.
+
+Tag: float-defer-page
+Non-standard. No widely recognized implementation or usage.
+
+Tag: float-offset
+Non-standard. No widely recognized implementation or usage.
+
+Tag: float-wrap
+Non-standard. No widely recognized implementation or usage.
+
+Tag: flow-into
+Defines a named flow, directing content to flow into a container, enabling fragmentation.
+
+Tag: flow-from
+Specifies the named flow from which the element pulls content, essentially linking an element with a flow defined by `flow-into`.
+
+Tag: flex
+A shorthand property for `flex-grow`, `flex-shrink`, and `flex-basis`. It specifies the flexibility of an item within a flex container.
+
+Tag: flex-basis
+Defines the default size of an element before the remaining space is distributed according to the flex factors.
+
+Tag: flex-grow
+Defines the ability of a flex item to grow if necessary, specifying how much the item will grow relative to the rest of the flex items.
+
+Tag: flex-shrink
+Defines the ability of a flex item to shrink if necessary, specifying how the item will shrink relative to the rest of the flex items.
+
+Tag: flex-flow
+A shorthand property for `flex-direction` and `flex-wrap`. It specifies the direction of flex items in a flex container.
+
+Tag: flex-direction
+Specifies the direction of the flexible items within a flex container.
+
+Tag: flex-wrap
+Specifies whether the flex items should wrap or not if there's not enough room for them in one flex line.
+
+Tag: flood-color
+Specifies the color to use in the flood operation in SVG filters, essentially the color of shadows or effects.
+
+Tag: flood-opacity
+Specifies the opacity for the color used by `flood-color`. It affects the amount of shadow or effect.
+
+Tag: font
+A shorthand property for setting `font-style`, `font-variant`, `font-weight`, `font-size`, `line-height`, and `font-family`.
+
+Tag: font-family
+Specifies the font family for text.
+
+Tag: font-size
+Specifies the font size of the text.
+
+Tag: font-stretch
+Allows you to make text narrower (condensed) or wider (expanded).
+
+Tag: font-style
+Specifies the font style for text (e.g., normal, italic, oblique).
+
+Tag: font-weight
+Specifies the weight (or boldness) of the font.
+
+Tag: font-feature-settings
+Allows control over advanced typographic features in OpenType fonts.
+
+Tag: font-kerning
+Controls the usage of the kerning information (how letters are spaced).
+
+Tag: font-language-override
+Allows authors to specify a language system for OpenType font features.
+
+Tag: font-size-adjust
+Allows control over the aspect ratio of fonts, ensuring consistency of the x-height of different fonts.
+
+Tag: font-synthesis
+Controls which missing typefaces (bold or italic) may be synthesized by the browser.
+
+Tag: font-variant
+A shorthand property for setting font styles like small-caps, numeric, and alternative glyphs.
+
+Tag: font-variant-alternates
+Controls the usage of alternate glyphs associated with specific character sequences in the text.
+
+Tag: font-variant-caps
+Controls the usage of alternate glyphs for capital letters.
+
+Tag: font-variant-east-asian
+Controls the usage of alternate glyphs for East Asian scripts like Japanese and Chinese.
+
+Tag: font-variant-ligatures
+Controls which ligatures and contextual forms are used in textual content of the elements it applies to.
+
+Tag: font-variant-numeric
+Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers.
+
+Tag: font-variant-position
+Controls the usage of alternate, smaller glyphs that are positioned as superscript or subscript.
+
+Tag: footnote-policy
+Non-standard and not widely supported. Intended to control the positioning and styling of footnotes.
+
+Tag: glyph-orientation-horizontal
+Specifies the orientation for glyphs and characters from horizontal scripts when rendering vertical text. Deprecated in favor of 'text-orientation'.
+
+Tag: glyph-orientation-vertical
+Specifies the orientation for glyphs and characters from vertical scripts when rendering vertical text. Deprecated in favor of 'text-orientation'.
+
+Tag: grid
+A shorthand property for setting all of the explicit grid properties (`grid-template-rows`, `grid-template-columns`, `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, and `grid-auto-flow`) in one declaration.
+
+Tag: grid-auto-flow
+Specifies how auto-placed items get inserted in the grid.
+
+Tag: grid-auto-columns
+Specifies the size of automatically created grid columns.
+
+Tag: grid-auto-rows
+Specifies the size of automatically created grid rows.
+
+Tag: grid-template
+A shorthand property for defining grid columns, rows, and areas in one declaration.
+
+Tag: grid-template-areas
+Specifies named grid areas, establishing the cells in the grid and assigning them names.
+
+Tag: grid-template-columns
+Specifies the size of the columns in a grid layout.
+
+Tag: grid-template-rows
+Specifies the size of the rows in a grid layout.
+
+Tag: grid-area
+Either specifies a name for the grid item, or this property is a shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end.
+
+Tag: grid-column
+A shorthand property for grid-column-start and grid-column-end, specifying a grid item’s size and location within the grid column.
+
+Tag: grid-column-start
+Specifies the line where the grid item’s start edge is placed.
+
+Tag: grid-column-end
+Specifies the line where the grid item’s end edge is placed.
+
+Tag: grid-row
+A shorthand property for grid-row-start and grid-row-end, specifying a grid item’s size and location within the grid row.
+
+Tag: grid-row-start
+Specifies the line where the grid item’s start edge is placed within the grid row.
+
+Tag: grid-row-end
+Specifies the line where the grid item’s end edge is placed within the grid row.
+
+Tag: hanging-punctuation
+Specifies whether a punctuation mark may be placed outside the line box.
+
+Tag: height
+Specifies the height of the element.
+
+Tag: hyphenate-character
+Specifies the character to use for hyphenation.
+
+Tag: hyphenate-limit-chars
+Specifies the minimum number of characters in a hyphenated word.
+
+Tag: hyphenate-limit-last
+Controls hyphenation at the end of lines.
+
+Tag: hyphenate-limit-lines
+Specifies the minimum number of lines in a block container that must be shown at the break before or after the hyphenated word.
+
+Tag: hyphenate-limit-zone
+Specifies the maximum amount of space allowed to vary from the optimal hyphenation point.
+
+Tag: hyphens
+Specifies how words should be hyphenated when text wrapping.
+
+Tag: icon
+Specifies an image that represents the element. Mostly used in graphical user interfaces to represent files, folders, etc.
+
+Tag: image-orientation
+Specifies how to correctly orient an image.
+
+Tag: image-resolution
+Specifies the intrinsic resolution of all raster images used in or on the element and its content.
+
+Tag: image-rendering
+Provides a hint to the browser about what aspects of an image are most important to preserve when the image is scaled.
+
+Tag: ime
+Non-standard and not supported. Intended to control the input method editor.
+
+Tag: ime-align
+Non-standard and not supported. Intended to align the input method editor.
+
+Tag: ime-mode
+Controls the state of the input method editor for text fields.
+
+Tag: ime-offset
+Non-standard and not supported. Intended to offset the input method editor.
+
+Tag: ime-width
+Non-standard and not supported. Intended to specify the width of the input method editor.
+
+Tag: initial-letters
+Specifies the size of the initial letters of a block of text.
+
+Tag: inline-box-align
+Non-standard and not supported. Intended to align inline boxes within a line.
+
+Tag: isolation
+Defines whether an element must create a new stacking context.
+
+Tag: justify-content
+Aligns the flexible container's items when the items do not use all available space on the main-axis.
+
+Tag: justify-items
+Aligns items along the inline (row) axis (as opposed to `align-items` which aligns along the block (column) axis).
+
+Tag: justify-self
+Aligns an item inside a flexible or grid container, overriding the container's `justify-items` property.
+
+Tag: kerning
+Adjusts the spacing between characters of text. Deprecated in favor of `font-kerning`.
+
+Tag: left
+Specifies the position of the left edge of the positioned element.
+
+Tag: letter-spacing
+Controls the amount of space between each letter in text.
+
+Tag: lighting-color
+Used in SVG; specifies the color of the light source for filters that use lighting effects.
+
+Tag: line-box-contain
+Non-standard and not widely supported. Intended to specify what parts of an inline box should be considered part of the line box.
+
+Tag: line-break
+Specifies how to break lines within text.
+
+Tag: line-grid
+Non-standard and not supported. Intended to align the baselines of text to a grid.
+
+Tag: line-height
+Specifies the height of a line box.
+
+Tag: line-slack
+Non-standard and not supported. Was proposed to allow flexibility when aligning text to a grid.
+
+Tag: line-snap
+Non-standard and not supported. Intended to control the snapping of lines to a grid.
+
+Tag: list-style
+A shorthand property for setting `list-style-type`, `list-style-position`, and `list-style-image`.
+
+Tag: list-style-image
+Specifies an image to be used as the list item marker.
+
+Tag: list-style-position
+Specifies the position of the list-item markers (bullet points).
+
+Tag: list-style-type
+Specifies the type of list-item marker in a list.
+
+Tag: margin
+A shorthand property for setting `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` in one declaration.
+
+Tag: margin-bottom
+Specifies the bottom margin of an element.
+
+Tag: margin-left
+Specifies the left margin of an element.
+
+Tag: margin-right
+Specifies the right margin of an element.
+
+Tag: margin-top
+Specifies the top margin of an element.
+
+Tag: marker
+A shorthand property in SVG for setting `marker-start`, `marker-mid`, and `marker-end`.
+
+Tag: marker-end
+Defines the arrowhead or polymarker that will be drawn at the final vertex of the given path element or basic shape in SVG.
+
+Tag: marker-mid
+Defines the arrowhead or polymarker that will be drawn at every other vertex (other than the first and last) of the given path element or basic shape in SVG.
+
+Tag: marker-start
+Defines the arrowhead or polymarker that will be drawn at the first vertex of the given path element or basic shape in SVG.
+
+Tag: marker-pattern
+Non-standard and not supported. Intended for defining patterns for markers.
+
+Tag: marker-segment
+Non-standard and not supported. Intended for defining markers for line segments.
+
+Tag: marker-knockout-left
+Non-standard and not supported. Intended for defining how markers on the left side of the line are adjusted or 'knocked out'.
+
+Tag: marker-knockout-right
+Non-standard and not supported. Intended for defining how markers on the right side of the line are adjusted or 'knocked out'.
+
+Tag: marker-side
+Specifies whether the markers should appear inside or outside the shape or path in SVG.
+
+Tag: marks
+Specifies crop marks and cross marks on the page when printing.
+
+Tag: marquee-direction
+Specifies the direction in which the marquee content moves.
+
+Tag: marquee-play-count
+Specifies how many times the marquee content will scroll.
+
+Tag: marquee-speed
+Specifies the speed of the marquee content.
+
+Tag: marquee-style
+Specifies the style of moving content in a marquee (scrolling content area).
+
+Tag: mask
+A shorthand property that allows you to specify whether an element is to be masked and the mask's appearance.
+
+Tag: mask-image
+Specifies the image to be used as a mask for an element.
+
+Tag: mask-repeat
+Specifies whether and how a mask image is repeated (tiled).
+
+Tag: mask-position
+Specifies the initial position of the mask image.
+
+Tag: mask-clip
+Specifies which part of the masked element's content box is affected by the mask.
+
+Tag: mask-origin
+Specifies the origin position of the mask image.
+
+Tag: mask-size
+Specifies the size of the mask image.
+
+Tag: mask-box
+Non-standard or deprecated. Was intended to define a mask as a box.
+
+Tag: mask-box-outset
+Specifies the amount by which the mask box image area extends beyond the border box.
+
+Tag: mask-box-repeat
+Specifies how the mask box image is repeated (tiled).
+
+Tag: mask-box-slice
+Defines how to slice the mask box image.
+
+Tag: mask-box-source
+Specifies the source image to be used as a mask box.
+
+Tag: mask-box-width
+Specifies the width of the mask box image.
+
+Tag: mask-type
+Specifies whether the mask is treated as a luminance or alpha mask.
+
+Tag: max-height
+Specifies the maximum height of an element.
+
+Tag: max-lines
+Specifies the maximum number of lines of text that an element can display.
+
+Tag: max-width
+Specifies the maximum width of an element.
+
+Tag: min-height
+Specifies the minimum height of an element.
+
+Tag: min-width
+Specifies the minimum width of an element.
+
+Tag: mix-blend-mode
+Specifies how an element's content should blend with its direct parent background.
+
+Tag: nav-down
+Specifies where to navigate when using arrow-down navigation key.
+
+Tag: nav-index
+Specifies the navigation order for an element when using arrow keys.
+
+Tag: nav-left
+Specifies where to navigate when using arrow-left navigation key.
+
+Tag: nav-right
+Specifies where to navigate when using arrow-right navigation key.
+
+Tag: nav-up
+Specifies where to navigate when using arrow-up navigation key.
+
+Tag: object-fit
+Specifies how the content of a replaced element, such as an `<img>` or `<video>`, should be resized to fit its container.
+
+Tag: object-position
+Specifies the alignment of the replaced element inside its box.
+
+Tag: offset-after
+Defines the logical offset after the element, depending on its writing mode.
+
+Tag: offset-before
+Defines the logical offset before the element, depending on its writing mode.
+
+Tag: offset-end
+Defines the logical offset at the end side of the element, depending on its writing mode.
+
+Tag: offset-start
+Defines the logical offset at the start side of the element, depending on its writing mode.
+
+Tag: opacity
+Specifies the opacity level of an element, making it transparent.
+
+Tag: order
+Specifies the order in which a flex or grid item appears within its container.
+
+Tag: orphans
+Sets the minimum number of lines in a block container that must be shown at the bottom of a page when a page break occurs inside a block.
+
+Tag: outline
+A shorthand property for setting `outline-width`, `outline-style`, and `outline-color` in one declaration.
+
+Tag: outline-color
+Specifies the color of the outline around an element.
+
+Tag: outline-style
+Specifies the style of the outline around an element.
+
+Tag: outline-width
+Specifies the width of the outline around an element.
+
+Tag: outline-offset
+Offsets an outline, and draws it beyond the border edge.
+
+Tag: overflow
+Specifies what happens if content overflows an element's box.
+
+Tag: overflow-x
+Specifies whether or not to clip the left/right edges of content, if it overflows the element's content area.
+
+Tag: overflow-y
+Specifies whether or not to clip the top/bottom edges of content, if it overflows the element's content area.
+
+Tag: overflow-style
+Specifies the preferred scrolling methods for elements that overflow.
+
+Tag: overflow-wrap
+Specifies whether or not the browser should insert line breaks within words to prevent text from overflowing its content box.
+
+Tag: padding
+A shorthand property that sets all padding properties (top, right, bottom, and left) in one declaration.
+
+Tag: padding-bottom
+Specifies the bottom padding of an element.
+
+Tag: padding-left
+Specifies the left padding of an element.
+
+Tag: padding-right
+Specifies the right padding of an element.
+
+Tag: padding-top
+Specifies the top padding of an element.
+
+Tag: page
+Specifies the page box each element should be printed to when printing a document.
+
+Tag: page-break-after
+Specifies the page-breaking behavior after an element.
+
+Tag: page-break-before
+Specifies the page-breaking behavior before an element.
+
+Tag: page-break-inside
+Specifies the page-breaking behavior inside an element.
+
+Tag: paint-order
+Specifies the order in which the fill, stroke, and markers of a shape or text element are painted.
+
+Tag: pause
+A shorthand property for setting the `pause-before` and `pause-after` properties.
+
+Tag: pause-after
+Specifies the amount of time to be paused after speaking an element's content.
+
+Tag: pause-before
+Specifies the amount of time to be paused before speaking an element's content.
+
+Tag: perspective
+Specifies the perspective from which all child elements of the object are viewed, for 3D-positioned elements.
+
+Tag: perspective-origin
+Defines the origin (the vanishing point for the 3D space) for the perspective property.
+
+Tag: pitch
+Specifies the pitch or frequency of the speaking voice.
+
+Tag: pitch-range
+Specifies the range of variation in pitch (frequency) for the speaking voice.
+
+Tag: play-during
+Specifies a sound to be played while an element's content is being spoken.
+
+Tag: pointer-events
+Defines under what circumstances (if any) a particular graphic element can become the target of mouse events.
+
+Tag: position
+Specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).
+
+Tag: quotes
+Specifies the type of quotation marks for embedded quotations.
+
+Tag: region-fragment
+Controls the fragmentation of content in regions.
+
+Tag: resize
+Specifies whether or not an element is resizable by the user.
+
+Tag: rest
+A shorthand property for setting both `rest-before` and `rest-after`.
+
+Tag: rest-after
+Specifies a period of silence to be observed after speaking an element's content.
+
+Tag: rest-before
+Specifies a period of silence to be observed before speaking an element's content.
+
+Tag: richness
+Affects the richness or brightness of the speaking voice.
+
+Tag: right
+Specifies the right position of a positioned element.
+
+Tag: ruby-align
+Specifies the alignment of ruby annotations relative to the base text.
+
+Tag: ruby-merge
+Specifies whether adjacent ruby annotations are to be merged.
+
+Tag: ruby-position
+Specifies the position of ruby annotations relative to the base text.
+
+Tag: scroll-behavior
+Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump.
+
+Tag: scroll-snap-coordinate
+Defines the x and y coordinate within an element that will align with the corresponding scroll-snap-destination point of the parent scrolling box.
+
+Tag: scroll-snap-destination
+Defines the x and y position within the viewport to which the scroll-snap-coordinate of an element will align.
+
+Tag: scroll-snap-points-x
+Defines snap points along the x-axis of the scroll container.
+
+Tag: scroll-snap-points-y
+Defines snap points along the y-axis of the scroll container.
+
+Tag: scroll-snap-type
+Specifies how snapping occurs in a scrollable box when the user performs a scrolling operation.
+
+Tag: shape-image-threshold
+Defines a threshold value for the alpha channel of images used by the `shape-outside` property.
+
+Tag: shape-inside
+Specifies a shape inside which the content of an element is to be flowed.
+
+Tag: shape-margin
+Specifies a margin for a shape created by `shape-outside`.
+
+Tag: shape-outside
+Specifies a shape around which inline content should wrap.
+
+Tag: shape-padding
+Non-standard and not supported. Intended to provide internal padding to shapes specified by `shape-outside`.
+
+Tag: shape-rendering
+Provides hints to the renderer about what tradeoffs to make when rendering shapes like paths, circles, or rectangles.
+
+Tag: size
+Specifies the size and orientation of the pages box.
+
+Tag: speak
+Specifies whether or not to speak the element's content, for screen readers.
+
+Tag: speak-as
+Specifies how content will be spoken by screen readers, including punctuation, numerals, and so forth.
+
+Tag: speak-header
+Specifies whether table headers should be spoken before every cell, row, or not at all.
+
+Tag: speak-numeral
+Specifies how numerals are spoken.
+
+Tag: speak-punctuation
+Specifies whether punctuation is spoken.
+
+Tag: speech-rate
+Specifies the speaking rate for the speaking voice.
+
+Tag: stop-color
+Specifies the color at a gradient stop in an SVG element.
+
+Tag: stop-opacity
+Specifies the opacity at a gradient stop in an SVG element.
+
+Tag: stress
+Specifies the amount of stress in the speaking voice, which can change the meaning of sentences.
+
+Tag: string-set
+Non-standard and not widely supported. Intended to assign string values to counters for generated content.
+
+Tag: stroke
+Specifies the color of the stroke (outline) of SVG shapes.
+
+Tag: stroke-dasharray
+Specifies the pattern of dashes and gaps used to paint the stroke of SVG shapes.
+
+Tag: stroke-dashoffset
+Specifies the distance into the dash pattern to start the dash.
+
+Tag: stroke-linecap
+Specifies the shape to be used at the ends of open subpaths when they are stroked.
+
+Tag: stroke-linejoin
+Specifies the shape to be used at the corners of paths or basic shapes when they are stroked.
+
+Tag: stroke-miterlimit
+Limits the ratio of the miter length to the stroke width.
+
+Tag: stroke-opacity
+Specifies the opacity of the stroke (outline) of SVG shapes.
+
+Tag: stroke-width
+Specifies the width of the stroke (outline) of SVG shapes.
+
+Tag: tab-size
+Specifies the width of tab characters (U+0009) in spaces.
+
+Tag: table-layout
+Defines the algorithm used to lay out table cells, rows, and columns.
+
+Tag: text-align
+Specifies the horizontal alignment of text in an element.
+
+Tag: text-align-all
+Adjusts the alignment of all lines of the text in a block, except the last line if `text-align-last` is specified.
+
+Tag: text-align-last
+Specifies how the last line of a block or a line right before a forced line break is aligned when `text-align` is `justify`.
+
+Tag: text-anchor
+Used with SVG text to specify how text is horizontally positioned relative to a given point.
+
+Tag: text-combine-upright
+Specifies the combination of characters within an upright orientation in vertical writing modes.
+
+Tag: text-decoration
+A shorthand property for setting text decoration style, color, and line.
+
+Tag: text-decoration-color
+Specifies the color of text decoration (underlines, overlines, linethroughs).
+
+Tag: text-decoration-line
+Specifies the type of text decoration (underline, overline, line-through).
+
+Tag: text-decoration-style
+Specifies the style of the text decoration (solid, double, dotted, dashed, wavy).
+
+Tag: text-decoration-skip
+Specifies what parts of an element’s content are skipped over when applying `text-decoration`.
+
+Tag: text-emphasis
+A shorthand property for setting the emphasis mark style and color applied to text in East Asian typography.
+
+Tag: text-emphasis-color
+Specifies the color of the emphasis marks.
+
+Tag: text-emphasis-style
+Specifies the style of the emphasis marks (filled or open dots, circles, double circles, triangles, or sesame).
+
+Tag: text-emphasis-position
+Specifies the position of the emphasis marks with respect to the text.
+
+Tag: text-emphasis-skip
+Specifies elements that emphasis marks should skip over.
+
+Tag: text-height
+Specifies the block-progression dimension of the text content area of an inline box.
+
+Tag: text-indent
+Specifies the indentation of the first line in a block of text.
+
+Tag: text-justify
+Specifies the justification method to use when `text-align` is set to `justify`.
+
+Tag: text-orientation
+Defines the orientation of text within a line in vertical writing modes.
+
+Tag: text-overflow
+Specifies how overflowed content that is not displayed is signaled to users.
+
+Tag: text-rendering
+Provides hints to the rendering engine about what to optimize for when rendering text.
+
+Tag: text-shadow
+Applies one or more shadows to text.
+
+Tag: text-size-adjust
+Controls the text scaling algorithm used in some mobile browsers to increase readability when laying out text.
+
+Tag: text-space-collapse
+Specifies how white space inside the element is handled.
+
+Tag: text-spacing
+Controls spacing between text characters.
+
+Tag: text-transform
+Controls the capitalization of text.
+
+Tag: text-underline-position
+Specifies the position of the underline which is set using the `text-decoration` property.
+
+Tag: text-wrap
+Specifies line breaking rules for text.
+
+Tag: top
+Specifies the top position of a positioned element.
+
+Tag: touch-action
+Specifies how touch gestures are handled.
+
+Tag: transform
+Applies a 2D or 3D transformation to an element.
+
+Tag: transform-box
+Defines the layout box to which the transform and related properties apply.
+
+Tag: transform-origin
+Specifies the point at which to apply the transformations.
+
+Tag: transform-style
+Specifies whether children of the element are positioned in the 3D space or flattened.
+
+Tag: transition
+A shorthand property for `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`.
+
+Tag: transition-delay
+Specifies the duration to wait before starting a property’s transition effect.
+
+Tag: transition-duration
+Specifies how long the transition effect should last.
+
+Tag: transition-property
+Specifies the name of the CSS property to which the transition is applied.
+
+Tag: transition-timing-function
+Specifies the speed curve of the transition effect.
+
+Tag: unicode-bidi
+Used together with the `direction` property to set or return whether the text should be overridden to support multiple languages in the same document.
+
+Tag: vector-effect
+Specifies the vector effect to use when drawing an object. Particularly useful for SVG elements.
+
+Tag: vertical-align
+Sets the vertical alignment of an element.
+
+Tag: visibility
+Specifies whether or not an element is visible.
+
+Tag: voice-balance
+Controls the spatial balance of the speaking voice for audio rendering of text-to-speech.
+
+Tag: voice-duration
+Specifies how long it should take to render the selected element's text content in speech.
+
+Tag: voice-family
+Specifies the voice to be used for speech synthesis.
+
+Tag: voice-pitch
+Specifies the pitch of the speaking voice for text-to-speech.
+
+Tag: voice-range
+Specifies the range over which the voice varies in pitch.
+
+Tag: voice-rate
+Controls the speaking rate for text-to-speech.
+
+Tag: voice-stress
+Specifies the level of stress in the speaking voice for text-to-speech.
+
+Tag: voice-volume
+Controls the volume of the speaking voice for text-to-speech.
+
+Tag: volume
+Specifies the volume for audio playback.
+
+Tag: white-space
+Specifies how white space inside an element is handled.
+
+Tag: widows
+Specifies the minimum number of lines that must be left at the top of a new page or area when a page or area break occurs inside an element.
+
+Tag: width
+Specifies the width of an element.
+
+Tag: will-change
+Hints to the browser about which properties are likely to be animated or transformed for performance optimization.
+
+Tag: word-break
+Specifies how words should break when reaching the end of a line.
+
+Tag: word-spacing
+Increases or decreases the space between words in a text.
+
+Tag: word-wrap
+Allows long words to be able to break and wrap onto the next line.
+
+Tag: wrap-flow
+Specifies how content wraps around a floating element's exclusion area.
+
+Tag: wrap-through
+Specifies whether content should wrap around a floating element's exclusion area or if it should be excluded.
+
+Tag: writing-mode
+Specifies whether lines of text are laid out horizontally or vertically.
+
+Tag: z-index
+Specifies the stack order of an element.
+
+Tag: align-content
+Adjusts the alignment of flexible container's items within the cross axis.
+
+Tag: align-items
+Aligns items in a flexible container or grid along the cross axis.
+
+Tag: align-self
+Allows the default alignment or the ability to override the alignment for individual flex items.
+
+Tag: alignment-adjust
+Property in SVG content to adjust the alignment on the baseline.
+
+Tag: alignment-baseline
+Specifies how an element's baseline is aligned within its text content area.
+
+Tag: all
+Resets all properties (except unicode-bidi and direction) to their initial or inherited values.
+
+Tag: alt
+Used in HTML to specify alternative text to display if an image cannot be shown, not a CSS property.
+
+Tag: animation
+Shorthand property to configure all animation properties at once.
+
+Tag: animation-delay
+Specifies a delay for the start of an animation.
+
+Tag: animation-direction
+Defines whether an animation should play forwards, backwards, or alternate between playing forwards and backwards.
+
+Tag: animation-duration
+Specifies the length of time an animation should take to complete one cycle.
+
+Tag: animation-fill-mode
+Defines how a CSS animation should apply styles to its target before and after its execution.
+
+Tag: animation-iteration-count
+Defines the number of times an animation cycle should be played before stopping.
+
+Tag: animation-name
+Specifies the name of the @keyframes animation to use.
+
+Tag: animation-play-state
+Specifies whether the animation is running or paused.
+
+Tag: animation-timing-function
+Describes how the animation progresses through the duration of each cycle.
+
+Tag: azimuth
+Defines the sound-source position in stereo sound. It's used with aural media.
+
+Tag: backface-visibility
+Determines whether or not the back face of an element is visible when turned towards the user.
+
+Tag: background
+A shorthand property for setting all background style properties at once.
+
+Tag: background-attachment
+Determines whether a background image is fixed with regard to the viewport or scrolls with the containing block.
+
+Tag: background-clip
+Defines how far the background (color or image) should extend within an element.
+
+Tag: background-color
+Specifies the background color of an element.
+
+Tag: background-image
+Specifies one or more background images for an element.
+
+Tag: background-origin
+Specifies the origin position of a background image.
+
+Tag: background-position
+Specifies the initial position of a background image.
+
+Tag: background-repeat
+Defines how background images are repeated.
+
+Tag: background-size
+Specifies the size of the background images.
+
+Tag: background-blend-mode
+Defines the blending mode of each background layer (color and/or image).
+
+Tag: baseline-shift
+Adjusts the position of an element's baseline.
+
+Tag: bleed
+Specifies how far an element's box extends beyond the page box for page-related properties in print media.
+
+Tag: bookmark-label
+Specifies the content to be used as the label for a bookmark.
+
+Tag: bookmark-level
+Specifies the level of the bookmark in a way that structures the document outline generated in a PDF.
+
+Tag: bookmark-state
+Specifies whether a bookmark is open or closed by default when the document is first opened.
+
+Tag: border
+A shorthand property for setting all border properties (width, style, and color) at once.
+
+Tag: border-color
+Specifies the color of the border. Can set different colors for each side.
+
+Tag: border-style
+Specifies the style of the border (e.g., solid, dashed, or dotted). Can set different styles for each side.
+
+Tag: border-width
+Specifies the width of the border. Can set different widths for each side.
+
+Tag: border-bottom
+A shorthand property for setting all the bottom border properties.
+
+Tag: border-bottom-color
+Specifies the color of the bottom border.
+
+Tag: border-bottom-style
+Specifies the style of the bottom border.
+
+Tag: border-bottom-width
+Specifies the width of the bottom border.
+
+Tag: border-left
+A shorthand property for setting all the left border properties.
+
+Tag: border-left-color
+Specifies the color of the left border.
+
+Tag: border-left-style
+Specifies the style of the left border.
+
+Tag: border-left-width
+Specifies the width of the left border.
+
+Tag: border-right
+A shorthand property for setting all the right border properties.
+
+Tag: border-right-color
+Specifies the color of the right border.
+
+Tag: border-right-style
+Specifies the style of the right border.
+
+Tag: border-right-width
+Specifies the width of the right border.
+
+Tag: border-top
+A shorthand property for setting all the top border properties at once.
+
+Tag: border-top-color
+Specifies the color of the top border.
+
+Tag: border-top-style
+Specifies the style of the top border (e.g., solid, dashed).
+
+Tag: border-top-width
+Specifies the width of the top border.
+
+Tag: border-collapse
+Specifies whether table borders should collapse into a single border or be separated.
+
+Tag: border-image
+A shorthand property for setting all the border-image-* properties at once.
+
+Tag: border-image-outset
+Specifies the amount by which the border image area extends beyond the border box.
+
+Tag: border-image-repeat
+Specifies how the images for the sides and the middle part of a border image are scaled and tiled.
+
+Tag: border-image-slice
+Specifies how to slice the border image.
+
+Tag: border-image-source
+Specifies the path to the image to be used as a border.
+
+Tag: border-image-width
+Specifies the widths of the image-border.
+
+Tag: border-radius
+Defines the radius of the element's corners.
+
+Tag: border-bottom-left-radius
+Defines the radius of the bottom-left corner.
+
+Tag: border-bottom-right-radius
+Defines the radius of the bottom-right corner.
+
+Tag: border-top-left-radius
+Defines the radius of the top-left corner.
+
+Tag: border-top-right-radius
+Defines the radius of the top-right corner.
+
+Tag: border-spacing
+Specifies the spacing between the borders of adjacent table cells.
+
+Tag: bottom
+Specifies the position of the bottom edge of the positioned element.
+
+Tag: box-decoration-break
+Specifies how an element's decorations are drawn across multiple lines, boxes, or fragments.
+
+Tag: box-shadow
+Applies one or more shadows to an element. It can define the shadow's color, blur radius, offset, and spread radius.
+
+Tag: box-sizing
+Defines how the width and height of an element are calculated: should they include padding and borders, or not.
+
+Tag: box-snap
+A non-standard property that was proposed to control the snapping of boxes in a layout but is not widely supported.
+
+Tag: break-after
+Specifies how page, column, or region breaks should behave after the generated box.
+
+Tag: break-before
+Specifies how page, column, or region breaks should behave before the generated box.
+
+Tag: break-inside
+Prevents page, column, or region breaks from occurring within a specified box.
+
+Tag: buffered-rendering
+Non-standard. Suggests to the browser whether graphical elements should buffer their rendering to improve performance.
+
+Tag: caption-side
+Specifies the placement of a table caption.
+
+Tag: clear
+Specifies whether an element must be moved below floating elements that precede it.
+
+Tag: clear-side
+Non-standard and does not exist in formal CSS specifications. Possibly confused with the 'clear' property.
+
+Tag: clip
+Deprecated. Defines the clipping region of an absolutely positioned element.
+
+Tag: clip-path
+Specifies a clipping path where only the part of the element that is within the path will be visible.
+
+Tag: clip-rule
+Specifies the filling rule for paths within a `<clipPath>` element. It is a property related to SVG.
+
+Tag: color
+Sets the color of the text.
+
+Tag: color-adjust
+Provides control over the color adjustment algorithm used by the browser to adapt the colors of the content to the colors of the output device.
+
+Tag: color-correction
+Non-standard and not widely supported. Intended to control color correction in browsers.
+
+Tag: color-interpolation
+Specifies the color space for interpolation in gradients, transforms, and other compositional effects.
+
+Tag: color-interpolation-filters
+Specifies the color space for interpolation of colors for filters. It's specifically for SVG elements or CSS filters applied to HTML elements.
+
+Tag: color-profile
+Specifies the color profile used for color rendering. Mostly applicable in SVG graphics.
+
+Tag: color-rendering
+Provides a hint to the browser about the color rendering algorithm to use for SVG and CSS properties like `background`, `color`, `border-color`.
+
+Tag: column-fill
+Controls how content is distributed to fill columns, balancing content evenly or filling each column sequentially.
+
+Tag: column-gap
+Specifies the gap between columns in a multi-column layout.
+
+Tag: column-rule
+A shorthand property for setting `column-rule-width`, `column-rule-style`, and `column-rule-color` at once.
+
+Tag: column-rule-color
+Specifies the color of the rule (line) drawn between columns in a multi-column layout.
+
+Tag: column-rule-style
+Specifies the style of the rule (line) drawn between columns in a multi-column layout.
+
+Tag: column-rule-width
+Specifies the width of the rule (line) drawn between columns in a multi-column layout.
+
+Tag: column-span
+Allows an element to span across all columns when inside a multi-column layout.
+
+Tag: columns
+A shorthand property for setting both `column-width` and `column-count` at once.
+
+Tag: column-count
+Specifies the number of columns in a multi-column layout.
+
+Tag: column-width
+Specifies the optimal width of the columns in a multi-column layout.
+
+Tag: contain
+Indicates that an element and its contents are, as much as possible, independent of the rest of the document tree.
+
+Tag: content
+Used with the `::before` and `::after` pseudo-elements, to insert generated content.
+
+Tag: counter-increment
+Increases or decreases the value of one or more CSS counters.
+
+Tag: counter-reset
+Creates or resets one or more CSS counters.
+
+Tag: counter-set
+Sets the value of one or more CSS counters.
+
+Tag: cue
+Specifies the sound to be played before or after an element's content, commonly used with speech media.
+
+Tag: cue-after
+Specifies the sound to be played after the element's content has been spoken.
+
+Tag: cue-before
+Specifies the sound to be played before the element's content is spoken.
+
+Tag: cursor
+Specifies the type of cursor to be displayed when pointing over an element.
+
+Tag: direction
+Specifies the text direction/writing direction. Values are 'ltr' (left to right) or 'rtl' (right to left).
+
+Tag: display
+Specifies how an element is displayed on the screen. Common values include 'block', 'inline', 'flex', 'grid', etc.
+
+Tag: display-inside
+Experimental. Specifies the inner display type of an element, determining its layout inside.
+
+Tag: display-outside
+Experimental. Specifies the outside display type, influencing layout behavior on the element itself.
+
+Tag: display-extras
+Non-standard. No widely recognized implementation or usage.
+
+Tag: display-box
+Non-standard. No widely recognized implementation or usage.
+
+Tag: dominant-baseline
+Specifies the dominant baseline, which is the baseline used to align the box's text and inline-level contents.
+
+Tag: elevation
+Specifies the elevation of the speaking voice for the 'cue' properties, simulating a three-dimensional spatial positioning.
+
+Tag: empty-cells
+Specifies whether to show or hide borders and backgrounds of table cells that have no content.
+
+Tag: enable-background
+Deprecated. Was used in SVG to define how the background accumulates.
+
+Tag: fill
+Specifies the color to use inside the object (used in SVG).
+
+Tag: fill-opacity
+Specifies the opacity of the color or the content the 'fill' property applies to (used in SVG).
+
+Tag: fill-rule
+Determines the algorithm to use to determine what parts of the canvas are filled when rendering an SVG 'path'.
+
+Tag: filter
+Applies graphical effects like blur or color shift to an element.
+
+Tag: float
+Specifies how an element should float to the left, right, or none.
+
+Tag: float-defer-column
+Non-standard. No widely recognized implementation or usage.
+
+Tag: float-defer-page
+Non-standard. No widely recognized implementation or usage.
+
+Tag: float-offset
+Non-standard. No widely recognized implementation or usage.
+
+Tag: float-wrap
+Non-standard. No widely recognized implementation or usage.
+
+Tag: flow-into
+Defines a named flow, directing content to flow into a container, enabling fragmentation.
+
+Tag: flow-from
+Specifies the named flow from which the element pulls content, essentially linking an element with a flow defined by `flow-into`.
+
+Tag: flex
+A shorthand property for `flex-grow`, `flex-shrink`, and `flex-basis`. It specifies the flexibility of an item within a flex container.
+
+Tag: flex-basis
+Defines the default size of an element before the remaining space is distributed according to the flex factors.
+
+Tag: flex-grow
+Defines the ability of a flex item to grow if necessary, specifying how much the item will grow relative to the rest of the flex items.
+
+Tag: flex-shrink
+Defines the ability of a flex item to shrink if necessary, specifying how the item will shrink relative to the rest of the flex items.
+
+Tag: flex-flow
+A shorthand property for `flex-direction` and `flex-wrap`. It specifies the direction of flex items in a flex container.
+
+Tag: flex-direction
+Specifies the direction of the flexible items within a flex container.
+
+Tag: flex-wrap
+Specifies whether the flex items should wrap or not if there's not enough room for them in one flex line.
+
+Tag: flood-color
+Specifies the color to use in the flood operation in SVG filters, essentially the color of shadows or effects.
+
+Tag: flood-opacity
+Specifies the opacity for the color used by `flood-color`. It affects the amount of shadow or effect.
+
+Tag: font
+A shorthand property for setting `font-style`, `font-variant`, `font-weight`, `font-size`, `line-height`, and `font-family`.
+
+Tag: font-family
+Specifies the font family for text.
+
+Tag: font-size
+Specifies the font size of the text.
+
+Tag: font-stretch
+Allows you to make text narrower (condensed) or wider (expanded).
+
+Tag: font-style
+Specifies the font style for text (e.g., normal, italic, oblique).
+
+Tag: font-weight
+Specifies the weight (or boldness) of the font.
+
+Tag: font-feature-settings
+Allows control over advanced typographic features in OpenType fonts.
+
+Tag: font-kerning
+Controls the usage of the kerning information (how letters are spaced).
+
+Tag: font-language-override
+Allows authors to specify a language system for OpenType font features.
+
+Tag: font-size-adjust
+Allows control over the aspect ratio of fonts, ensuring consistency of the x-height of different fonts.
+
+Tag: font-synthesis
+Controls which missing typefaces (bold or italic) may be synthesized by the browser.
+
+Tag: font-variant
+A shorthand property for setting font styles like small-caps, numeric, and alternative glyphs.
+
+Tag: font-variant-alternates
+Controls the usage of alternate glyphs associated with specific character sequences in the text.
+
+Tag: font-variant-caps
+Controls the usage of alternate glyphs for capital letters.
+
+Tag: font-variant-east-asian
+Controls the usage of alternate glyphs for East Asian scripts like Japanese and Chinese.
+
+Tag: font-variant-ligatures
+Controls which ligatures and contextual forms are used in textual content of the elements it applies to.
+
+Tag: font-variant-numeric
+Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers.
+
+Tag: font-variant-position
+Controls the usage of alternate, smaller glyphs that are positioned as superscript or subscript.
+
+Tag: footnote-policy
+Non-standard and not widely supported. Intended to control the positioning and styling of footnotes.
+
+Tag: glyph-orientation-horizontal
+Specifies the orientation for glyphs and characters from horizontal scripts when rendering vertical text. Deprecated in favor of 'text-orientation'.
+
+Tag: glyph-orientation-vertical
+Specifies the orientation for glyphs and characters from vertical scripts when rendering vertical text. Deprecated in favor of 'text-orientation'.
+
+Tag: grid
+A shorthand property for setting all of the explicit grid properties (`grid-template-rows`, `grid-template-columns`, `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, and `grid-auto-flow`) in one declaration.
+
+Tag: grid-auto-flow
+Specifies how auto-placed items get inserted in the grid.
+
+Tag: grid-auto-columns
+Specifies the size of automatically created grid columns.
+
+Tag: grid-auto-rows
+Specifies the size of automatically created grid rows.
+
+Tag: grid-template
+A shorthand property for defining grid columns, rows, and areas in one declaration.
+
+Tag: grid-template-areas
+Specifies named grid areas, establishing the cells in the grid and assigning them names.
+
+Tag: grid-template-columns
+Specifies the size of the columns in a grid layout.
+
+Tag: grid-template-rows
+Specifies the size of the rows in a grid layout.
+
+Tag: grid-area
+Either specifies a name for the grid item, or this property is a shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end.
+
+Tag: grid-column
+A shorthand property for grid-column-start and grid-column-end, specifying a grid item’s size and location within the grid column.
+
+Tag: grid-column-start
+Specifies the line where the grid item’s start edge is placed.
+
+Tag: grid-column-end
+Specifies the line where the grid item’s end edge is placed.
+
+Tag: grid-row
+A shorthand property for grid-row-start and grid-row-end, specifying a grid item’s size and location within the grid row.
+
+Tag: grid-row-start
+Specifies the line where the grid item’s start edge is placed within the grid row.
+
+Tag: grid-row-end
+Specifies the line where the grid item’s end edge is placed within the grid row.
+
+Tag: hanging-punctuation
+Specifies whether a punctuation mark may be placed outside the line box.
+
+Tag: height
+Specifies the height of the element.
+
+Tag: hyphenate-character
+Specifies the character to use for hyphenation.
+
+Tag: hyphenate-limit-chars
+Specifies the minimum number of characters in a hyphenated word.
+
+Tag: hyphenate-limit-last
+Controls hyphenation at the end of lines.
+
+Tag: hyphenate-limit-lines
+Specifies the minimum number of lines in a block container that must be shown at the break before or after the hyphenated word.
+
+Tag: hyphenate-limit-zone
+Specifies the maximum amount of space allowed to vary from the optimal hyphenation point.
+
+Tag: hyphens
+Specifies how words should be hyphenated when text wrapping.
+
+Tag: icon
+Specifies an image that represents the element. Mostly used in graphical user interfaces to represent files, folders, etc.
+
+Tag: image-orientation
+Specifies how to correctly orient an image.
+
+Tag: image-resolution
+Specifies the intrinsic resolution of all raster images used in or on the element and its content.
+
+Tag: image-rendering
+Provides a hint to the browser about what aspects of an image are most important to preserve when the image is scaled.
+
+Tag: ime
+Non-standard and not supported. Intended to control the input method editor.
+
+Tag: ime-align
+Non-standard and not supported. Intended to align the input method editor.
+
+Tag: ime-mode
+Controls the state of the input method editor for text fields.
+
+Tag: ime-offset
+Non-standard and not supported. Intended to offset the input method editor.
+
+Tag: ime-width
+Non-standard and not supported. Intended to specify the width of the input method editor.
+
+Tag: initial-letters
+Specifies the size of the initial letters of a block of text.
+
+Tag: inline-box-align
+Non-standard and not supported. Intended to align inline boxes within a line.
+
+Tag: isolation
+Defines whether an element must create a new stacking context.
+
+Tag: justify-content
+Aligns the flexible container's items when the items do not use all available space on the main-axis.
+
+Tag: justify-items
+Aligns items along the inline (row) axis (as opposed to `align-items` which aligns along the block (column) axis).
+
+Tag: justify-self
+Aligns an item inside a flexible or grid container, overriding the container's `justify-items` property.
+
+Tag: kerning
+Adjusts the spacing between characters of text. Deprecated in favor of `font-kerning`.
+
+Tag: left
+Specifies the position of the left edge of the positioned element.
+
+Tag: letter-spacing
+Controls the amount of space between each letter in text.
+
+Tag: lighting-color
+Used in SVG; specifies the color of the light source for filters that use lighting effects.
+
+Tag: line-box-contain
+Non-standard and not widely supported. Intended to specify what parts of an inline box should be considered part of the line box.
+
+Tag: line-break
+Specifies how to break lines within text.
+
+Tag: line-grid
+Non-standard and not supported. Intended to align the baselines of text to a grid.
+
+Tag: line-height
+Specifies the height of a line box.
+
+Tag: line-slack
+Non-standard and not supported. Was proposed to allow flexibility when aligning text to a grid.
+
+Tag: line-snap
+Non-standard and not supported. Intended to control the snapping of lines to a grid.
+
+Tag: list-style
+A shorthand property for setting `list-style-type`, `list-style-position`, and `list-style-image`.
+
+Tag: list-style-image
+Specifies an image to be used as the list item marker.
+
+Tag: list-style-position
+Specifies the position of the list-item markers (bullet points).
+
+Tag: list-style-type
+Specifies the type of list-item marker in a list.
+
+Tag: margin
+A shorthand property for setting `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` in one declaration.
+
+Tag: margin-bottom
+Specifies the bottom margin of an element.
+
+Tag: margin-left
+Specifies the left margin of an element.
+
+Tag: margin-right
+Specifies the right margin of an element.
+
+Tag: margin-top
+Specifies the top margin of an element.
+
+Tag: marker
+A shorthand property in SVG for setting `marker-start`, `marker-mid`, and `marker-end`.
+
+Tag: marker-end
+Defines the arrowhead or polymarker that will be drawn at the final vertex of the given path element or basic shape in SVG.
+
+Tag: marker-mid
+Defines the arrowhead or polymarker that will be drawn at every other vertex (other than the first and last) of the given path element or basic shape in SVG.
+
+Tag: marker-start
+Defines the arrowhead or polymarker that will be drawn at the first vertex of the given path element or basic shape in SVG.
+
+Tag: marker-pattern
+Non-standard and not supported. Intended for defining patterns for markers.
+
+Tag: marker-segment
+Non-standard and not supported. Intended for defining markers for line segments.
+
+Tag: marker-knockout-left
+Non-standard and not supported. Intended for defining how markers on the left side of the line are adjusted or 'knocked out'.
+
+Tag: marker-knockout-right
+Non-standard and not supported. Intended for defining how markers on the right side of the line are adjusted or 'knocked out'.
+
+Tag: marker-side
+Specifies whether the markers should appear inside or outside the shape or path in SVG.
+
+Tag: marks
+Specifies crop marks and cross marks on the page when printing.
+
+Tag: marquee-direction
+Specifies the direction in which the marquee content moves.
+
+Tag: marquee-play-count
+Specifies how many times the marquee content will scroll.
+
+Tag: marquee-speed
+Specifies the speed of the marquee content.
+
+Tag: marquee-style
+Specifies the style of moving content in a marquee (scrolling content area).
+
+Tag: mask
+A shorthand property that allows you to specify whether an element is to be masked and the mask's appearance.
+
+Tag: mask-image
+Specifies the image to be used as a mask for an element.
+
+Tag: mask-repeat
+Specifies whether and how a mask image is repeated (tiled).
+
+Tag: mask-position
+Specifies the initial position of the mask image.
+
+Tag: mask-clip
+Specifies which part of the masked element's content box is affected by the mask.
+
+Tag: mask-origin
+Specifies the origin position of the mask image.
+
+Tag: mask-size
+Specifies the size of the mask image.
+
+Tag: mask-box
+Non-standard or deprecated. Was intended to define a mask as a box.
+
+Tag: mask-box-outset
+Specifies the amount by which the mask box image area extends beyond the border box.
+
+Tag: mask-box-repeat
+Specifies how the mask box image is repeated (tiled).
+
+Tag: mask-box-slice
+Defines how to slice the mask box image.
+
+Tag: mask-box-source
+Specifies the source image to be used as a mask box.
+
+Tag: mask-box-width
+Specifies the width of the mask box image.
+
+Tag: mask-type
+Specifies whether the mask is treated as a luminance or alpha mask.
+
+Tag: max-height
+Specifies the maximum height of an element.
+
+Tag: max-lines
+Specifies the maximum number of lines of text that an element can display.
+
+Tag: max-width
+Specifies the maximum width of an element.
+
+Tag: min-height
+Specifies the minimum height of an element.
+
+Tag: min-width
+Specifies the minimum width of an element.
+
+Tag: mix-blend-mode
+Specifies how an element's content should blend with its direct parent background.
+
+Tag: nav-down
+Specifies where to navigate when using arrow-down navigation key.
+
+Tag: nav-index
+Specifies the navigation order for an element when using arrow keys.
+
+Tag: nav-left
+Specifies where to navigate when using arrow-left navigation key.
+
+Tag: nav-right
+Specifies where to navigate when using arrow-right navigation key.
+
+Tag: nav-up
+Specifies where to navigate when using arrow-up navigation key.
+
+Tag: object-fit
+Specifies how the content of a replaced element, such as an `<img>` or `<video>`, should be resized to fit its container.
+
+Tag: object-position
+Specifies the alignment of the replaced element inside its box.
+
+Tag: offset-after
+Defines the logical offset after the element, depending on its writing mode.
+
+Tag: offset-before
+Defines the logical offset before the element, depending on its writing mode.
+
+Tag: offset-end
+Defines the logical offset at the end side of the element, depending on its writing mode.
+
+Tag: offset-start
+Defines the logical offset at the start side of the element, depending on its writing mode.
+
+Tag: opacity
+Specifies the opacity level of an element, making it transparent.
+
+Tag: order
+Specifies the order in which a flex or grid item appears within its container.
+
+Tag: orphans
+Sets the minimum number of lines in a block container that must be shown at the bottom of a page when a page break occurs inside a block.
+
+Tag: outline
+A shorthand property for setting `outline-width`, `outline-style`, and `outline-color` in one declaration.
+
+Tag: outline-color
+Specifies the color of the outline around an element.
+
+Tag: outline-style
+Specifies the style of the outline around an element.
+
+Tag: outline-width
+Specifies the width of the outline around an element.
+
+Tag: outline-offset
+Offsets an outline, and draws it beyond the border edge.
+
+Tag: overflow
+Specifies what happens if content overflows an element's box.
+
+Tag: overflow-x
+Specifies whether or not to clip the left/right edges of content, if it overflows the element's content area.
+
+Tag: overflow-y
+Specifies whether or not to clip the top/bottom edges of content, if it overflows the element's content area.
+
+Tag: overflow-style
+Specifies the preferred scrolling methods for elements that overflow.
+
+Tag: overflow-wrap
+Specifies whether or not the browser should insert line breaks within words to prevent text from overflowing its content box.
+
+Tag: padding
+A shorthand property that sets all padding properties (top, right, bottom, and left) in one declaration.
+
+Tag: padding-bottom
+Specifies the bottom padding of an element.
+
+Tag: padding-left
+Specifies the left padding of an element.
+
+Tag: padding-right
+Specifies the right padding of an element.
+
+Tag: padding-top
+Specifies the top padding of an element.
+
+Tag: page
+Specifies the page box each element should be printed to when printing a document.
+
+Tag: page-break-after
+Specifies the page-breaking behavior after an element.
+
+Tag: page-break-before
+Specifies the page-breaking behavior before an element.
+
+Tag: page-break-inside
+Specifies the page-breaking behavior inside an element.
+
+Tag: paint-order
+Specifies the order in which the fill, stroke, and markers of a shape or text element are painted.
+
+Tag: pause
+A shorthand property for setting the `pause-before` and `pause-after` properties.
+
+Tag: pause-after
+Specifies the amount of time to be paused after speaking an element's content.
+
+Tag: pause-before
+Specifies the amount of time to be paused before speaking an element's content.
+
+Tag: perspective
+Specifies the perspective from which all child elements of the object are viewed, for 3D-positioned elements.
+
+Tag: perspective-origin
+Defines the origin (the vanishing point for the 3D space) for the perspective property.
+
+Tag: pitch
+Specifies the pitch or frequency of the speaking voice.
+
+Tag: pitch-range
+Specifies the range of variation in pitch (frequency) for the speaking voice.
+
+Tag: play-during
+Specifies a sound to be played while an element's content is being spoken.
+
+Tag: pointer-events
+Defines under what circumstances (if any) a particular graphic element can become the target of mouse events.
+
+Tag: position
+Specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).
+
+Tag: quotes
+Specifies the type of quotation marks for embedded quotations.
+
+Tag: region-fragment
+Controls the fragmentation of content in regions.
+
+Tag: resize
+Specifies whether or not an element is resizable by the user.
+
+Tag: rest
+A shorthand property for setting both `rest-before` and `rest-after`.
+
+Tag: rest-after
+Specifies a period of silence to be observed after speaking an element's content.
+
+Tag: rest-before
+Specifies a period of silence to be observed before speaking an element's content.
+
+Tag: richness
+Affects the richness or brightness of the speaking voice.
+
+Tag: right
+Specifies the right position of a positioned element.
+
+Tag: ruby-align
+Specifies the alignment of ruby annotations relative to the base text.
+
+Tag: ruby-merge
+Specifies whether adjacent ruby annotations are to be merged.
+
+Tag: ruby-position
+Specifies the position of ruby annotations relative to the base text.
+
+Tag: scroll-behavior
+Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump.
+
+Tag: scroll-snap-coordinate
+Defines the x and y coordinate within an element that will align with the corresponding scroll-snap-destination point of the parent scrolling box.
+
+Tag: scroll-snap-destination
+Defines the x and y position within the viewport to which the scroll-snap-coordinate of an element will align.
+
+Tag: scroll-snap-points-x
+Defines snap points along the x-axis of the scroll container.
+
+Tag: scroll-snap-points-y
+Defines snap points along the y-axis of the scroll container.
+
+Tag: scroll-snap-type
+Specifies how snapping occurs in a scrollable box when the user performs a scrolling operation.
+
+Tag: shape-image-threshold
+Defines a threshold value for the alpha channel of images used by the `shape-outside` property.
+
+Tag: shape-inside
+Specifies a shape inside which the content of an element is to be flowed.
+
+Tag: shape-margin
+Specifies a margin for a shape created by `shape-outside`.
+
+Tag: shape-outside
+Specifies a shape around which inline content should wrap.
+
+Tag: shape-padding
+Non-standard and not supported. Intended to provide internal padding to shapes specified by `shape-outside`.
+
+Tag: shape-rendering
+Provides hints to the renderer about what tradeoffs to make when rendering shapes like paths, circles, or rectangles.
+
+Tag: size
+Specifies the size and orientation of the pages box.
+
+Tag: speak
+Specifies whether or not to speak the element's content, for screen readers.
+
+Tag: speak-as
+Specifies how content will be spoken by screen readers, including punctuation, numerals, and so forth.
+
+Tag: speak-header
+Specifies whether table headers should be spoken before every cell, row, or not at all.
+
+Tag: speak-numeral
+Specifies how numerals are spoken.
+
+Tag: speak-punctuation
+Specifies whether punctuation is spoken.
+
+Tag: speech-rate
+Specifies the speaking rate for the speaking voice.
+
+Tag: stop-color
+Specifies the color at a gradient stop in an SVG element.
+
+Tag: stop-opacity
+Specifies the opacity at a gradient stop in an SVG element.
+
+Tag: stress
+Specifies the amount of stress in the speaking voice, which can change the meaning of sentences.
+
+Tag: string-set
+Non-standard and not widely supported. Intended to assign string values to counters for generated content.
+
+Tag: stroke
+Specifies the color of the stroke (outline) of SVG shapes.
+
+Tag: stroke-dasharray
+Specifies the pattern of dashes and gaps used to paint the stroke of SVG shapes.
+
+Tag: stroke-dashoffset
+Specifies the distance into the dash pattern to start the dash.
+
+Tag: stroke-linecap
+Specifies the shape to be used at the ends of open subpaths when they are stroked.
+
+Tag: stroke-linejoin
+Specifies the shape to be used at the corners of paths or basic shapes when they are stroked.
+
+Tag: stroke-miterlimit
+Limits the ratio of the miter length to the stroke width.
+
+Tag: stroke-opacity
+Specifies the opacity of the stroke (outline) of SVG shapes.
+
+Tag: stroke-width
+Specifies the width of the stroke (outline) of SVG shapes.
+
+Tag: tab-size
+Specifies the width of tab characters (U+0009) in spaces.
+
+Tag: table-layout
+Defines the algorithm used to lay out table cells, rows, and columns.
+
+Tag: text-align
+Specifies the horizontal alignment of text in an element.
+
+Tag: text-align-all
+Adjusts the alignment of all lines of the text in a block, except the last line if `text-align-last` is specified.
+
+Tag: text-align-last
+Specifies how the last line of a block or a line right before a forced line break is aligned when `text-align` is `justify`.
+
+Tag: text-anchor
+Used with SVG text to specify how text is horizontally positioned relative to a given point.
+
+Tag: text-combine-upright
+Specifies the combination of characters within an upright orientation in vertical writing modes.
+
+Tag: text-decoration
+A shorthand property for setting text decoration style, color, and line.
+
+Tag: text-decoration-color
+Specifies the color of text decoration (underlines, overlines, linethroughs).
+
+Tag: text-decoration-line
+Specifies the type of text decoration (underline, overline, line-through).
+
+Tag: text-decoration-style
+Specifies the style of the text decoration (solid, double, dotted, dashed, wavy).
+
+Tag: text-decoration-skip
+Specifies what parts of an element’s content are skipped over when applying `text-decoration`.
+
+Tag: text-emphasis
+A shorthand property for setting the emphasis mark style and color applied to text in East Asian typography.
+
+Tag: text-emphasis-color
+Specifies the color of the emphasis marks.
+
+Tag: text-emphasis-style
+Specifies the style of the emphasis marks (filled or open dots, circles, double circles, triangles, or sesame).
+
+Tag: text-emphasis-position
+Specifies the position of the emphasis marks with respect to the text.
+
+Tag: text-emphasis-skip
+Specifies elements that emphasis marks should skip over.
+
+Tag: text-height
+Specifies the block-progression dimension of the text content area of an inline box.
+
+Tag: text-indent
+Specifies the indentation of the first line in a block of text.
+
+Tag: text-justify
+Specifies the justification method to use when `text-align` is set to `justify`.
+
+Tag: text-orientation
+Defines the orientation of text within a line in vertical writing modes.
+
+Tag: text-overflow
+Specifies how overflowed content that is not displayed is signaled to users.
+
+Tag: text-rendering
+Provides hints to the rendering engine about what to optimize for when rendering text.
+
+Tag: text-shadow
+Applies one or more shadows to text.
+
+Tag: text-size-adjust
+Controls the text scaling algorithm used in some mobile browsers to increase readability when laying out text.
+
+Tag: text-space-collapse
+Specifies how white space inside the element is handled.
+
+Tag: text-spacing
+Controls spacing between text characters.
+
+Tag: text-transform
+Controls the capitalization of text.
+
+Tag: text-underline-position
+Specifies the position of the underline which is set using the `text-decoration` property.
+
+Tag: text-wrap
+Specifies line breaking rules for text.
+
+Tag: top
+Specifies the top position of a positioned element.
+
+Tag: touch-action
+Specifies how touch gestures are handled.
+
+Tag: transform
+Applies a 2D or 3D transformation to an element.
+
+Tag: transform-box
+Defines the layout box to which the transform and related properties apply.
+
+Tag: transform-origin
+Specifies the point at which to apply the transformations.
+
+Tag: transform-style
+Specifies whether children of the element are positioned in the 3D space or flattened.
+
+Tag: transition
+A shorthand property for `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`.
+
+Tag: transition-delay
+Specifies the duration to wait before starting a property’s transition effect.
+
+Tag: transition-duration
+Specifies how long the transition effect should last.
+
+Tag: transition-property
+Specifies the name of the CSS property to which the transition is applied.
+
+Tag: transition-timing-function
+Specifies the speed curve of the transition effect.
+
+Tag: unicode-bidi
+Used together with the `direction` property to set or return whether the text should be overridden to support multiple languages in the same document.
+
+Tag: vector-effect
+Specifies the vector effect to use when drawing an object. Particularly useful for SVG elements.
+
+Tag: vertical-align
+Sets the vertical alignment of an element.
+
+Tag: visibility
+Specifies whether or not an element is visible.
+
+Tag: voice-balance
+Controls the spatial balance of the speaking voice for audio rendering of text-to-speech.
+
+Tag: voice-duration
+Specifies how long it should take to render the selected element's text content in speech.
+
+Tag: voice-family
+Specifies the voice to be used for speech synthesis.
+
+Tag: voice-pitch
+Specifies the pitch of the speaking voice for text-to-speech.
+
+Tag: voice-range
+Specifies the range over which the voice varies in pitch.
+
+Tag: voice-rate
+Controls the speaking rate for text-to-speech.
+
+Tag: voice-stress
+Specifies the level of stress in the speaking voice for text-to-speech.
+
+Tag: voice-volume
+Controls the volume of the speaking voice for text-to-speech.
+
+Tag: volume
+Specifies the volume for audio playback.
+
+Tag: white-space
+Specifies how white space inside an element is handled.
+
+Tag: widows
+Specifies the minimum number of lines that must be left at the top of a new page or area when a page or area break occurs inside an element.
+
+Tag: width
+Specifies the width of an element.
+
+Tag: will-change
+Hints to the browser about which properties are likely to be animated or transformed for performance optimization.
+
+Tag: word-break
+Specifies how words should break when reaching the end of a line.
+
+Tag: word-spacing
+Increases or decreases the space between words in a text.
+
+Tag: word-wrap
+Allows long words to be able to break and wrap onto the next line.
+
+Tag: wrap-flow
+Specifies how content wraps around a floating element's exclusion area.
+
+Tag: wrap-through
+Specifies whether content should wrap around a floating element's exclusion area or if it should be excluded.
+
+Tag: writing-mode
+Specifies whether lines of text are laid out horizontally or vertically.
+
+Tag: z-index
+Specifies the stack order of an element.
+
+Tag: <a>
+Defines a hyperlink.
+
+Tag: <abbr>
+Defines an abbreviation or an acronym, providing a full term or explanation.
+
+Tag: <acronym>
+Defines an acronym. Obsolete in HTML5, use <abbr> instead.
+
+Tag: <address>
+Specifies contact information for the author/owner of a document or an article.
+
+Tag: <animate>
+Defines an animation that applies to SVG elements. Part of SVG, not standard HTML.
+
+Tag: <animatemotion>
+Causes an element to move along a motion path. Part of SVG animations.
+
+Tag: <animatetransform>
+Applies animated transformations to SVG elements. Part of SVG animations.
+
+Tag: <applet>
+Embeds a Java applet. Obsolete in HTML5, replaced by <object>.
+
+Tag: <area>
+Defines an area inside an image map that has predefined clickable areas.
+
+Tag: <article>
+Specifies independent, self-contained content that could stand alone from the rest of the content.
+
+Tag: <aside>
+Defines content aside from the page content, often used for sidebars, inserts, or non-essential information.
+
+Tag: <audio>
+Used to embed sound content in documents, allowing playback of audio files.
+
+Tag: <b>
+Renders text in boldface, used to draw attention without implying any added importance or urgency.
+
+Tag: <base>
+Specifies the base URL/target for all relative URLs in a document, setting a common base for all links and references within the page.
+
+Tag: <basefont>
+Obsolete. Was used to specify a default font size, color, and face for all text in a document.
+
+Tag: <bdi>
+Isolates a part of text that might be formatted in a different direction from other text outside it, useful for user-generated content.
+
+Tag: <bdo>
+Overrides the current text direction, allowing manual control over text directionality (left-to-right or right-to-left).
+
+Tag: <bgsound>
+Obsolete and non-standard. Was used to specify background sound on a web page.
+
+Tag: <big>
+Obsolete. Was used to increase the font size of a text, making it larger than the surrounding text.
+
+Tag: <blink>
+Obsolete and non-standard. Was used to create blinking text, considered problematic for accessibility and usability.
+
+Tag: <blockquote>
+Defines a section that is quoted from another source, often used for longer quotes that take up an entire block of text.
+
+Tag: <body>
+Represents the content of an HTML document. There can be only one <body> element in a document.
+
+Tag: <br>
+Produces a line break in text, used to create a new line within an HTML document.
+
+Tag: <button>
+Defines a clickable button, which can be used in forms or anywhere in a document that needs simple, standard button functionality.
+
+Tag: <canvas>
+Used to draw graphics on the fly via scripting (usually JavaScript). It can be used for rendering graphs, game graphics, or other visual images on the fly.
+
+Tag: <caption>
+Specifies the caption (or title) of a table, which by default is centered above the table.
+
+Tag: <center>
+Obsolete. Was used to center-align text. Modern web design uses CSS to achieve text alignment.
+
+Tag: <cite>
+Defines the title of a creative work (e.g., book, poem, song, movie). It implies semantic importance and typically renders in italic.
+
+Tag: <code>
+Defines a piece of computer code. Its content is displayed in a monospace font, preserving spaces and line breaks.
+
+Tag: <col>
+Specifies column properties for each column within a `<colgroup>` element. It is used to apply CSS styles to entire columns, rather than individual table cells.
+
+Tag: <colgroup>
+Defines a group of one or more columns in a table for formatting.
+
+Tag: <command>
+Obsolete. Was used to define a command button that users could invoke.
+
+Tag: <content>
+Not standard. Previously used in Web Components technology, now replaced by `<slot>` in the Shadow DOM.
+
+Tag: custom tags
+Used with Web Components; allows developers to create their own custom HTML tags with custom behavior and properties.
+
+Tag: <data>
+Associates a machine-readable equivalent with its content for user-defined data.
+
+Tag: <datalist>
+Contains a set of `<option>` elements that represent the permissible or recommended options to choose from in other controls.
+
+Tag: <dd>
+Defines the description, definition, or value part of a term in a description list (`<dl>`).
+
+Tag: <del>
+Defines text that has been deleted from a document.
+
+Tag: <details>
+Defines additional details that the user can view or hide on demand.
+
+Tag: <dfn>
+Represents the defining instance of a term.
+
+Tag: <dialog>
+Defines a dialog box or window that can be toggled by the user.
+
+Tag: <dir>
+Obsolete. Was used to create a directory list. Use `<ul>` instead.
+
+Tag: <discard>
+Not standard. No widely recognized implementation or usage.
+
+Tag: <div>
+Defines a division or a section in an HTML document, used as a container for HTML elements.
+
+Tag: <dl>
+Defines a description list, a list of terms and their corresponding descriptions.
+
+Tag: <dt>
+Defines a term/name in a description list (`<dl>`).
+
+Tag: element
+Not standard in the context of HTML elements. In Web Components, custom elements are defined using classes that extend HTMLElement.
+
+Tag: <em>
+Defines emphasized text, which is typically displayed in italics to denote emphasis.
+
+Tag: <embed>
+Defines a container for an external application or interactive content (a plug-in).
+
+Tag: <fieldset>
+Groups related elements and labels within a web form.
+
+Tag: <figcaption>
+Defines a caption for a `<figure>` element.
+
+Tag: <figure>
+Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc., often with a caption (`<figcaption>`).
+
+Tag: <font>
+Obsolete. Was used to define font size, color, and face for text. Use CSS instead.
+
+Tag: <footer>
+Defines a footer for a document or a section, typically containing authorship information, copyright notices, contact information, and other related details.
+
+Tag: <form>
+Defines an HTML form for user input, containing form elements such as text fields, checkboxes, radio buttons, and submit buttons.
+
+Tag: <frame>
+Obsolete. Defined a particular area within a `<frameset>` where a document could be displayed. Use `<iframe>` or CSS instead for layouts.
+
+Tag: <frameset>
+Obsolete. Used to define a collection of frames or framesets. Replaced by CSS for layout.
+
+Tag: <h1>-<h6>
+Define HTML headings, `<h1>` being the highest level and `<h6>` the lowest.
+
+Tag: <head>
+Contains meta-information about the document, such as `<title>`, `<style>`, and `<meta>` tags.
+
+Tag: <header>
+Defines a header for a document or a section, typically containing introductory content or a set of navigational links.
+
+Tag: <hgroup>
+Obsolete. Was used to group a set of `<h1>`–`<h6>` elements when a section has multiple headings.
+
+Tag: <hr>
+Represents a thematic break between paragraph-level elements, for example, a change of scene in a story, or a shift of topic within a section.
+
+Tag: <html>
+Defines the root of an HTML document and contains the document's structure (`<head>` and `<body>`).
+
+Tag: <i>
+Defines a part of text in an alternate voice or mood, or otherwise offset from the normal prose, typically displayed in italics.
+
+Tag: <iframe>
+Defines an inline frame that embeds another document within the current HTML document.
+
+Tag: <img>
+Embeds an image in an HTML document.
+
+Tag: <input>
+Defines an input control.
+
+Tag: <ins>
+Defines a text that has been inserted into a document.
+
+Tag: <kbd>
+Defines keyboard input.
+
+Tag: <keygen>
+Obsolete. Was used to facilitate generation of key material, and submission of the public key as part of an HTML form.
+
+Tag: <label>
+Defines a label for an `<input>` element.
+
+Tag: <legend>
+Defines a caption for a `<fieldset>`, `<figure>`, or `<details>` element.
+
+Tag: <li>
+Defines a list item.
+
+Tag: <link>
+Defines the relationship between a document and an external resource, typically used to link to stylesheets.
+
+Tag: <main>
+Specifies the main content of a document.
+
+Tag: <map>
+Defines a client-side image map.
+
+Tag: <mark>
+Defines text that should be highlighted or marked for reference or notation purposes, often used to highlight a part of text.
+
+Tag: <marquee>
+Obsolete. Was used to create scrolling text or images. Modern web development uses CSS animations for similar effects.
+
+Tag: <menu>
+Defines a menu or list of commands, more recently being specified as a semantic way to represent a list of items that are commands or options.
+
+Tag: <menuitem>
+Obsolete. Was used to define a command/menu item that the user could invoke from a popup menu created with the `<menu>` element.
+
+Tag: <meta>
+Defines metadata about the HTML document, such as character set, page description, keywords, author of the document, and viewport settings.
+
+Tag: <meter>
+Represents a scalar measurement within a known range, or a fractional value; for example, disk usage or the relevance of a query result.
+
+Tag: <multicol>
+Obsolete and non-standard. Was proposed to allow multi-column layouts in HTML documents.
+
+Tag: <nav>
+Defines a set of navigation links. It is intended for sections of a page that provide navigation links.
+
+Tag: <nextid>
+Obsolete and non-standard. Was used in early HTML documents to help browsers with layout.
+
+Tag: <nobr>
+Obsolete and non-standard. Was used to prevent text from breaking into a new line.
+
+Tag: <noembed>
+Obsolete. Provides alternative content for users whose browsers do not support embedded content.
+
+Tag: <noframes>
+Obsolete. Provides alternative content for users whose browsers do not support frames.
+
+Tag: <noscript>
+Defines alternative content to be displayed to users who have disabled scripts in their browser or have a browser that doesn't support client-side scripting.
+
+Tag: <object>
+Defines an embedded object within an HTML document. It can be used to include various types of data and more complex multimedia elements.
+
+Tag: <ol>
+Defines an ordered list of items, typically rendered as a numbered list.
+
+Tag: <optgroup>
+Defines a group of related options in a drop-down list (`<select>` element).
+
+Tag: <option>
+Defines an option in a drop-down list within a `<select>` or `<datalist>` element.
+
+Tag: <output>
+Represents the result of a calculation or user action.
+
+Tag: <p>
+Defines a paragraph. It is a block-level element that contains text.
+
+Tag: <param>
+Defines parameters for an `<object>` element, used to configure the object or embed plugin features.
+
+Tag: portal
+Not officially part of the HTML specification. Potentially related to modern web APIs or frameworks.
+
+Tag: <picture>
+Allows for more flexible image delivery by defining multiple `<source>` elements for different display scenarios.
+
+Tag: plaintext
+Obsolete. Was used to render text plainly, without HTML interpretation. Modern HTML does not use this element.
+
+Tag: <pre>
+Defines preformatted text. Content within a `<pre>` element is displayed in a fixed-width font, and it preserves spaces and line breaks.
+
+Tag: <progress>
+Represents the progress of a task, such as downloading, uploading, or any other progress indication.
+
+Tag: <q>
+Defines a short inline quotation. Browsers typically surround the content with quotation marks.
+
+Tag: rtc
+Used to mark ruby text container for ruby text components in East Asian typography.
+
+Tag: <ruby>
+Represents a ruby annotation, used for East Asian typographic layout to provide pronunciation guides.
+
+Tag: <s>
+Renders text with a strikethrough, or a line through it. Used to indicate text that is no longer relevant or has been deleted.
+
+Tag: <samp>
+Defines sample output from a computer program. Typically, it's displayed in a monospace font.
+
+Tag: <script>
+Used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.
+
+Tag: search
+Not an HTML element on its own. Typically refers to `<input type='search'>`, which is used to define a search field.
+
+Tag: <section>
+Defines a section in a document, such as chapters, headers, footers, or any other sections of the document.
+
+Tag: <select>
+Creates a drop-down list for selecting one or more options.
+
+Tag: set
+Not standard in HTML. In SVG, `<set>` is used to define a simple animation where one attribute changes to a new value over a specified duration.
+
+Tag: shadow
+Previously part of Web Components; `<shadow>` is used with Shadow DOM. Modern usage involves attaching a shadow DOM directly to an element via JavaScript.
+
+Tag: <slot>
+A placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.
+
+Tag: <small>
+Makes the text smaller in size compared to surrounding text, typically used for fine print or side comments.
+
+Tag: <source>
+Specifies multiple media resources for the <picture>, <audio>, or <video> elements, allowing the browser to choose the best fit.
+
+Tag: spacer
+Non-standard and obsolete. Was used to create space in a page layout; modern web design uses CSS for spacing.
+
+Tag: <span>
+Defines a section in a document for styling purposes without conveying any special meaning.
+
+Tag: <strike>
+Deprecated. Represents text that has been struck through. Use the <del> or <s> tag instead.
+
+Tag: <strong>
+Indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold.
+
+Tag: <style>
+Contains style information for a document, or part of a document.
+
+Tag: <sub>
+Defines subscript text, which appears half a character below the normal line.
+
+Tag: <summary>
+Defines a visible heading for a <details> element, which can be clicked to view or hide the <details> content.
+
+Tag: <sup>
+Defines superscript text, which appears half a character above the normal line.
+
+Tag: <svg>
+Defines a container for SVG graphics and allows you to define vector-based graphics in XML format.
+
+Tag: <table>
+Defines a table.
+
+Tag: <tbody>
+Groups the body content in a table.
+
+Tag: <td>
+Defines a cell in a table.
+
+Tag: <template>
+Holds content that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime.
+
+Tag: <textarea>
+Defines a multi-line text input control.
+
+Tag: <tfoot>
+Groups the footer content in a table.
+
+Tag: <th>
+Defines a header cell in a table.
+
+Tag: <thead>
+Groups the header content in a table.
+
+Tag: <time>
+Represents a specific period in time.
+
+Tag: <title>
+Defines the title of the document, shown in the browser's title bar or page's tab.
+
+Tag: <tr>
+Defines a row in a table.
+
+Tag: <track>
+Used as a child of the <audio> or <video> elements, and enables subtitles or captions.
+
+Tag: <tt>
+Deprecated. Represents teletype or monospaced text. Use CSS instead.
+
+Tag: <u>
+Represents non-textually underlined text, such as proper names in Chinese text, or for stylistic purposes.
+
+Tag: <ul>
+Defines an unordered list.
+
+Tag: <var>
+Represents a variable in a mathematical expression or a programming context.
+
+Tag: <video>
+Embeds video content in a document.
+
+Tag: <wbr>
+Represents a line break opportunity for very long words or strings of text without spaces.
+
+Tag: <xmp>
+Deprecated. Was used to preformat text, preserving spaces and line breaks. Use <pre> instead.
+
