@@ -1,0 +1,533 @@
+<html>
+	<head>
+		<style>
+			body,html{padding:0px;margin:0px;overflow:hidden;background:black;}
+			canvas{position:absolute;top:0px;left:0px;}
+		</style>
+		<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<canvas id="lienzo2" width=512 height=512></canvas>
+		<canvas id="lienzo" width=512 height=512></canvas>
+		
+		<script src="canvas_blur_rect.js"></script>
+		<!--<script src="classes/Pez.js"></script>
+		<script src="classes/Comida.js"></script>-->
+		<script>
+            var fotograma = 0
+		class Pez{
+			constructor(){
+				this.x = Math.random()*anchura
+				this.y = Math.random()*altura
+				this.a = Math.random()*Math.PI*2
+				this.edad = (Math.random()*2+2)/2;
+				this.tiempo = Math.random();
+				this.avancevida = Math.random()/10
+				this.r = Math.round(Math.random()*255)
+				this.g = Math.round(Math.random()*255)
+				this.b = Math.round(Math.random()*255)
+				this.energia = Math.random();
+				this.direcciongiro = Math.round(Math.random()*2-1)
+				this.numeroelementos = 10
+				this.numeroelementoscola = 5
+				this.colorr = new Array()
+				this.colorg = new Array()
+				this.colorb = new Array()
+				this.reproducido = 0
+				this.sexo = Math.round(Math.random())
+				if(this.sexo == 0){
+					this.r = Math.round(Math.random()*127)+127
+					this.g = this.r/3
+					this.b = this.r/3
+					for(var i = -1;i<this.numeroelementos;i++){
+						this.colorr[i] = this.r+Math.round((Math.random()-0.5)*100)
+						this.colorg[i] = this.g+Math.round((Math.random()-0.5)*100)
+						this.colorb[i] = this.b+Math.round((Math.random()-0.5)*100)
+					}
+				}else{
+					this.g = Math.round(Math.random()*127)+127
+					this.r = this.g/3
+					
+					this.b = this.g/3
+					for(var i = -1;i<this.numeroelementos;i++){
+						this.colorr[i] = this.r+Math.round((Math.random()-0.5)*100)
+						this.colorg[i] = this.g+Math.round((Math.random()-0.5)*100)
+						this.colorb[i] = this.b+Math.round((Math.random()-0.5)*100)
+					}
+				}
+				this.anguloanterior = 0;
+				this.giro = 0;
+			}
+			dibuja(){
+				// Sensores
+				/*
+				for(var i = -2; i<2;i+=0.1){
+					var datos = contexto.getImageData(
+						this.x + Math.cos(this.a+i)*50,
+						this.y + Math.sin(this.a+i)*50,
+						1,
+						1
+					)
+					if(datos.data[3] != 0){
+					//console.log(datos.data[3])
+					}
+					if(datos.data[3] != 0){
+						//this.a -= 1/i*0.01
+						this.direcciongiro = i
+						this.x -= Math.cos(i)*0.1
+						this.y -= Math.sin(i)*0.1
+					}
+					
+				}
+				*/
+				
+				if(this.energia > 0){
+				contexto.fillStyle = "rgb("+this.r+","+this.g+","+this.b+")"
+				}else{
+					contexto.fillStyle = "grey"
+				}
+				var numeroelementos = 10
+				var numeroelementoscola = 5
+				// Dibujo el cuerpo
+				//contexto.filter = "blur(4px)";
+				
+					
+				for(var i = -1;i<this.numeroelementos;i++){
+					
+					
+					if(i == 1){
+						contexto.fillStyle = "white"
+						// ojo 1
+							contexto.beginPath()
+							contexto.arc(
+								this.x+i*Math.cos(this.a+Math.PI/2)*4*this.edad-i*Math.cos(this.a)*1*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								this.y+i*Math.sin(this.a+Math.PI/2)*4*this.edad-i*Math.sin(this.a)*1*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								(this.edad*0.4*(numeroelementos-i)+1)/3,
+								0,
+								Math.PI*2,
+								true)
+							contexto.closePath();
+							contexto.fill()
+						// ojo 2
+							contexto.beginPath()
+							contexto.arc(
+								this.x-i*Math.cos(this.a+Math.PI/2)*4*this.edad-i*Math.cos(this.a)*1*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								this.y-i*Math.sin(this.a+Math.PI/2)*4*this.edad-i*Math.sin(this.a)*1*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								(this.edad*0.4*(numeroelementos-i)+1)/3,
+								0,
+								Math.PI*2,
+								true)
+							contexto.closePath();
+							contexto.fill()
+					}
+					contexto.fillStyle = "rgb("+this.r+","+this.g+","+this.b+")"
+					if(i == Math.round(this.numeroelementos/2) || i == Math.round(this.numeroelementos/1.1)){
+						// Aleta 1
+							contexto.beginPath()
+							contexto.ellipse(
+								this.x+i*Math.cos(this.a+Math.PI/2)*0.3*this.edad-i*Math.cos(this.a)*1*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								this.y+i*Math.sin(this.a+Math.PI/2)*0.3*this.edad-i*Math.sin(this.a)*1*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								(this.edad*0.4*(numeroelementos-i)+1)*2,
+								(this.edad*0.4*(numeroelementos-i)+1)*1,
+								this.a+Math.PI/2-Math.cos(this.tiempo*2),
+								0,
+								Math.PI*2,
+								true)
+							contexto.closePath();
+							contexto.fill()
+						// Aleta 2
+							contexto.beginPath()
+							contexto.ellipse(
+								this.x-i*Math.cos(this.a+Math.PI/2)*0.3*this.edad-i*Math.cos(this.a)*1*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								this.y-i*Math.sin(this.a+Math.PI/2)*0.3*this.edad-i*Math.sin(this.a)*1*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+								(this.edad*0.4*(numeroelementos-i)+1)*2,
+								(this.edad*0.4*(numeroelementos-i)+1)*1,
+								this.a+Math.PI/2+Math.cos(this.tiempo*2),
+								0,
+								Math.PI*2,
+								true)
+							contexto.closePath();
+							contexto.fill()
+					}
+					}
+					for(var i = -1;i<this.numeroelementos;i++){
+					contexto.fillStyle = "rgb("+this.colorr[i]+","+this.colorg[i]+","+this.colorb[i]+")"
+					if(i == -1){
+					contexto.beginPath()
+					contexto.arc(
+						this.x-i*Math.cos(this.a)*5*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						this.y-i*Math.sin(this.a)*5*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						((this.edad*0.4*(numeroelementos-i)+5)*0.5+((Math.cos(this.tiempo)+1)*3))/3,
+						0,
+						Math.PI*2,
+						true)
+					contexto.closePath();
+					contexto.fill()
+					
+					}else{
+						contexto.beginPath()
+					contexto.arc(
+						this.x-i*Math.cos(this.a)*2*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						this.y-i*Math.sin(this.a)*2*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						(this.edad*0.4*(numeroelementos-i)+1)/1,
+						0,
+						Math.PI*2,
+						true)
+					contexto.closePath();
+					contexto.fill()
+					}
+				}
+				contexto.fillStyle = "rgb("+Math.round(this.r/1.5)+","+Math.round(this.g/1.5)+","+Math.round(this.b/1.5)+")"
+				for(var i = 0;i<this.numeroelementos;i++){
+					
+					contexto.beginPath()
+					contexto.arc(
+						this.x-i*Math.cos(this.a)*2*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						this.y-i*Math.sin(this.a)*2*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						(this.edad*0.4*(numeroelementos-i)+1)/3,
+						0,
+						Math.PI*2,
+						true)
+					contexto.closePath();
+					contexto.fill()
+				}
+				// Dibujo la aleta de cola
+				for(var i = this.numeroelementos;i<this.numeroelementos+this.numeroelementoscola;i++){
+					contexto.beginPath()
+					contexto.arc(
+						this.x-(i-3)*Math.cos(this.a)*2*this.edad+Math.sin(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						this.y-(i-3)*Math.sin(this.a)*2*this.edad+Math.cos(this.a)*Math.sin((i/5)-this.tiempo)*4,
+						0-this.edad*0.4*(numeroelementos-i)*2+1,
+						0,
+						Math.PI*2,
+						true)
+					contexto.closePath();
+					contexto.fill()
+				}
+				
+			}
+			vive(){
+				
+				
+				if(Math.random() < 0.002){
+					this.direcciongiro = 0-this.direcciongiro
+				}
+				
+				if(this.energia > 0){
+					this.tiempo += this.avancevida
+					
+					this.mueve()
+				}else{
+					//this.y -= 0.1
+				}
+				
+				
+				this.energia -= 0.00003
+				this.edad += 0.00001
+				//console.log(this.edad)
+				if(this.edad > 3){
+					this.energia = 0
+				}
+				
+				if(this.energia > 0){
+					this.dibuja()
+				}
+			}
+			mueve(){
+				
+				this.x += Math.cos(this.a)*this.avancevida*this.edad*5
+				this.y += Math.sin(this.a)*this.avancevida*this.edad*5
+				this.a += (Math.random()-0.5)*0.01
+				//this.colisiona()
+				
+			}
+			colisiona(){
+				
+				if(this.x < 0 || this.x > anchura || this.y < 0 || this.y > altura){
+					//this.a += Math.PI
+					//this.direcciongiro = Math.round(Math.random()*2-1)
+				}
+				if(this.x < 0){this.x = 40;this.a = 0}
+				if(this.y < 0){this.y = 40;this.a = 0+Math.PI/2}
+				if(this.x > anchura){this.x = anchura-40;this.a = Math.PI}
+				if(this.y > altura){this.y = altura-40;this.a = 0-Math.PI/2}
+				if(this.x < 200 || this.x > anchura-200 || this.y < 200 || this.y > altura-200){
+					this.a += 0.05*this.direcciongiro
+					//console.log(this.direcciongiro)
+				}
+				
+				
+			}
+			
+		}
+		class Comida{
+			constructor(){
+				this.x = Math.random()*anchura
+				this.y = Math.random()*altura
+				this.visible = true
+				this.vida = 0
+				this.radio = Math.random()*10
+				this.a = 0+Math.PI*2*Math.random()
+				this.v = Math.random()/4
+				this.transparencia = 1;
+			}
+			dibuja(){
+				if(this.visible == true){
+				contexto2.shadowColor = "rgba(255,255,255,"+this.transparencia+")";
+				contexto2.shadowBlur = this.radio;
+				contexto2.fillStyle = "rgba(255,255,255,"+this.transparencia+")"
+				contexto2.beginPath()
+				contexto2.arc(
+					this.x,
+					this.y,
+					this.radio,
+					0,
+					Math.PI*2,
+					true)
+				contexto2.closePath();
+				contexto2.fill()
+				}	
+			}
+			vive(){
+				this.vida++;
+				//this.mueve()
+				this.dibuja()
+			}
+			mueve(){
+				//this.y+=0.1 
+				this.a+=(Math.random()-0.5)*0.1
+				this.x+=Math.cos(this.a)*this.v
+				this.y+=Math.sin(this.a)*this.v
+			}
+		}
+
+		function lerpAngle(beta, alpha, t) {
+		  let difference = alpha - beta;
+
+		  // Ensure the shortest path around the circle
+		  if (difference > Math.PI) {
+			difference -= 2 * Math.PI;
+		  } else if (difference < -Math.PI) {
+			difference += 2 * Math.PI;
+		  }
+
+		  return beta + difference * t;
+		}
+		function angleInRadians(x1, y1, x2, y2) {
+			  const dx = x2 - x1;
+			  const dy = y2 - y1;
+			  const angle = Math.atan2(dy, dx);
+			  return angle;
+			}
+		$(document).ready(function(){
+			$(document).click(function(event){
+				comidas.push(new Comida())
+				comidas[comidas.length-1].x = event.pageX
+				comidas[comidas.length-1].y = event.pageY
+				
+			})
+		})
+			var contexto = document.getElementById("lienzo").getContext("2d")
+			var contexto2 = document.getElementById("lienzo2").getContext("2d")
+			var anchura = window.innerWidth
+			var altura = window.innerHeight
+			contexto._blurRect(0, 0, anchura, altura, 2, 1);
+			document.getElementById("lienzo").width = anchura
+			document.getElementById("lienzo").height = altura
+			document.getElementById("lienzo2").width = anchura
+			document.getElementById("lienzo2").height = altura
+			var numeropeces = 450; 
+			contexto.strokeStyle = "black"
+			contexto.lineWidth = 20
+			var peces = new Array()
+			for(var i = 0;i<numeropeces;i++){
+				peces[i] = new Pez()
+			}
+			var comidas = new Array()
+			comidas[0] = new Comida()
+			var temporizador = setTimeout("bucle()",1000)
+			function bucle(){
+				//contexto2.shadowColor = null;
+				//contexto2.shadowBlur = null;
+				//contexto.clearRect(0,0,anchura,altura)
+				contexto.fillStyle = "rgba(0,0,0,0.1)"
+				contexto.fillRect(0,0,anchura,altura)
+				//contexto2.clearRect(0,0,anchura,altura)
+				/*
+				contexto.beginPath();
+				contexto.moveTo(0,0)
+				contexto.lineTo(anchura,0)
+				contexto.lineTo(anchura,altura)
+				contexto.lineTo(0,altura)
+				contexto.lineTo(0,0)
+				contexto.closePath()º
+				contexto.stroke()
+				*/
+				if(Math.random() < 0.01){
+					comidas.push(new Comida());
+					//console.log("nueva comida")
+				}
+				for(var i = 0;i<comidas.length;i++){
+					comidas[i].vive()
+					//console.log("estoy dibujando")
+				}
+				numerocomidasvisibles = 0;
+				for(var i = 0;i<comidas.length;i++){
+					if(comidas[i].visible == true){
+						numerocomidasvisibles++;
+					}
+				}
+				// Pitagoras para las distancias
+				for(var i = 0;i<peces.length;i++){
+					if(numerocomidasvisibles > 0){
+						if(peces[i].energia < 5 && peces[i].energia > 0){
+							
+							indicemenor = 1000000;
+							distanciamenor = 100000000
+							for(var j = 0;j<comidas.length;j++){
+								if(comidas[j].visible == true){
+									distancia = Math.sqrt(Math.pow((peces[i].y-comidas[j].y),2)+Math.pow((peces[i].x-comidas[j].x),2))
+									if(distancia < distanciamenor){
+										distanciamenor = distancia;
+										indicemenor = j
+									}
+								}
+							}
+							
+							
+							try {
+							  var angleRadians = Math.abs(Math.atan2(comidas[indicemenor].y - peces[i].y, comidas[indicemenor].x - peces[i].x));
+							  var angleRadians = angleInRadians(peces[i].x, peces[i].y,comidas[indicemenor].x,comidas[indicemenor].y)
+							  //console.log(angleRadians)
+							  
+							  	//peces[i].a += ((angleRadians-peces[i].a)/50)
+								peces[i].a = lerpAngle(peces[i].a,angleRadians,0.01)
+								
+								//console.log(peces[i].a)
+								/*contexto.strokeStyle = "rgb(255,255,255)"
+								contexto.lineWidth = 1;
+								contexto.beginPath()
+								contexto.moveTo(peces[i].x,peces[i].y)
+								contexto.lineTo(comidas[indicemenor].x,comidas[indicemenor].y)
+								contexto.stroke()*/
+							
+							} catch (error) {
+							  console.error(error);
+							  
+							}
+							
+							
+							if(distanciamenor < 10){
+								comidas[indicemenor].visible = false
+								peces[i].energia += comidas[indicemenor].radio/10
+							}
+							
+						}
+					}
+				}
+				// Los peces procrean
+				/*
+				for(var i = 0;i<peces.length;i++){
+					for(var j = 0;j<peces.length;j++){
+						if(
+							i != j 
+							&& peces[i].energia > 0 
+							&& peces[j].energia > 0
+							&& peces[i].edad > 2 && peces[i].edad < 4
+							&& peces[j].edad > 2 && peces[j].edad < 4
+							&& peces[i].sexo != peces[j].sexo
+							&& peces[i].reproducido == 0
+							&& peces[j].reproducido == 0
+							){
+								
+								//console.log("podria ser")
+							distancia = Math.sqrt(Math.pow((peces[i].x-peces[j].x),2)+Math.pow((peces[i].y-peces[j].y),2))
+							if(distancia < 30){
+								peces[i].reproducido = 1
+								peces[j].reproducido = 1
+								for(j = 0;j<3;j++){
+									peces.push(new Pez())
+									peces[peces.length-1].x = peces[i].x
+									peces[peces.length-1].y = peces[i].y
+									peces[peces.length-1].vida = 1
+									
+								}
+							}
+						}
+					}
+					
+						
+				}
+				*/
+				for(var i = 0;i<peces.length;i++){
+					//console.log()
+					//peces[i].giro = peces[i].a - peces[i].anguloanterior
+				}
+				// Dividir comida
+				/*
+				for(var i =0;i<comidas.length;i++){
+					if(comidas[i].vida > 500 && comidas[i].visible == true){
+						//console.log("divido")
+						comidas[i].visible = false
+						if(comidas[i].radio > 1){
+							for(j = 0;j<3;j++){
+								comidas.push(new Comida())
+								comidas[comidas.length-1].x = comidas[i].x
+								comidas[comidas.length-1].y = comidas[i].y
+								comidas[comidas.length-1].radio = comidas[i].radio/1.9
+								comidas[comidas.length-1].transparencia = comidas[i].transparencia/2
+							}
+						}
+					}
+				}
+				*/
+				
+				for(var i = 0;i<peces.length;i++){
+					peces[i].vive()
+					//console.log(peces[i].x,peces[i].y)
+				}
+				for(var i = 0;i<peces.length;i++){
+					//peces[i].anguloanterior = peces[i].a;
+				}
+				/*
+				if(peces.length < 25){
+					peces.push(new Pez())
+					console.log("creo pez")
+				}
+				*/
+				for(var i = 0;i<peces.length;i++){
+					if(peces[i].energia <= 0){
+						//console.log("quito pez")
+						peces.splice(i,1)
+					}
+				}
+				for(var i = 0;i<comidas.length;i++){
+					if(comidas[i].visible != true){
+						//console.log("quito pez")
+						comidas.splice(i,1)
+					}
+				}
+				//console.log(peces.length)
+                fotograma++;
+                saveCanvas()
+				clearTimeout(temporizador)
+				temporizador = setTimeout("bucle()",1)
+			}
+			function saveCanvas() {
+                var canvas = document.querySelector("#lienzo");
+                var dataURL = canvas.toDataURL('image/jpeg');
+
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'save_image.php', true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        //alert('Image saved!');
+                    }
+                };
+                console.log(fotograma)
+                xhr.send('imgData=' + encodeURIComponent(dataURL)+ '&fotograma=' + fotograma);
+            }
+		</script>
+	</body>
+</html>

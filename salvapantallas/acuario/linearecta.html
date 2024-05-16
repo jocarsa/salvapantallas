@@ -1,0 +1,35 @@
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<canvas id="lienzo" width=512 height=512></canvas>
+		<script>
+			var contexto = document.getElementById("lienzo").getContext("2d")
+			var anchura = 512
+			var altura = 512
+			
+			xinicial = 100;
+			yinicial = 150;
+			xfinal = 400;
+			yfinal = 350;
+			
+			contexto.fillRect(xinicial-4,yinicial-4,8,8)
+			contexto.fillRect(xfinal-4,yfinal-4,8,8)
+			contexto.beginPath()
+			contexto.moveTo(xinicial,yinicial)
+			contexto.lineTo(xfinal,yfinal)
+			contexto.stroke()
+			numerofotogramas = 25
+			for(var i =0;i<numerofotogramas;i++){
+				contexto.fillRect(
+					xinicial+(xfinal-xinicial)*(i/numerofotogramas)-4,
+					yinicial+(yfinal-yinicial)*(i/numerofotogramas)-4,
+					8,
+					8)
+			}
+			
+			
+		</script>
+	</body>
+</html>
