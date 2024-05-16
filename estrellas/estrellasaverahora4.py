@@ -3,13 +3,14 @@ import numpy as np
 import math
 import time
 import os
+import random
 
 class Estrella:
     def __init__(self):
         self.angulo = np.random.rand() * 2 * math.pi
         self.distancia = np.random.rand() * 1000
 
-numero_estrellas = 1000
+numero_estrellas = random.randint(100,5000)
 estrellas = []
 
 anchura = 1920  
@@ -53,8 +54,8 @@ try:
             vertices = np.array([
                 [anchura / 2 + estrella.distancia * np.cos(estrella.angulo), altura / 2 + estrella.distancia * np.sin(estrella.angulo)],
                 [anchura / 2 + estrella.distancia * 1.04 * np.cos(estrella.angulo), altura / 2 + estrella.distancia * 1.04 * np.sin(estrella.angulo)],
-                [anchura / 2 + estrella.distancia * 1.04 * np.cos(estrella.angulo + 0.002), altura / 2 + estrella.distancia * 1.04 * np.sin(estrella.angulo + 0.002)],
-                [anchura / 2 + estrella.distancia * np.cos(estrella.angulo + 0.002), altura / 2 + estrella.distancia * np.sin(estrella.angulo + 0.002)]
+                [anchura / 2 + estrella.distancia * 1.04 * np.cos(estrella.angulo + 0.01), altura / 2 + estrella.distancia * 1.04 * np.sin(estrella.angulo + 0.01)],
+                [anchura / 2 + estrella.distancia * np.cos(estrella.angulo + 0.01), altura / 2 + estrella.distancia * np.sin(estrella.angulo + 0.01)]
             ])
 
             cv2.fillPoly(frame, [vertices.astype(np.int32)], (255, 255, 255))
@@ -76,7 +77,7 @@ finally:
     cv2.destroyAllWindows()
 
     if os.path.exists(nombre_archivo_temporal):
-        nombre_archivo_final = f'estrellas_{epoch_time}.mp4'
+        nombre_archivo_final = f'C:/render/estrellas_{epoch_time}.mp4'
         os.rename(nombre_archivo_temporal, nombre_archivo_final)
         print(f"El video se ha guardado como '{nombre_archivo_final}'")
     else:

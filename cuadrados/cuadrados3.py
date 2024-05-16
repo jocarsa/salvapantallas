@@ -13,7 +13,7 @@ for i in range(0, 10):
     # Create video writer
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     timestamp = int(time.time())
-    out = cv2.VideoWriter(f'cuadrados_{timestamp}.mp4', fourcc, fps, (width, height))
+    out = cv2.VideoWriter(f'C:/rendercuadrados_{timestamp}.mp4', fourcc, fps, (width, height))
 
     # Define grid parameters
     celda = random.randint(32,512)

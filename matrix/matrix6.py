@@ -103,7 +103,7 @@ try:
 
         # Set up video writer
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        filename = f"matrix_screensaver_{int(time.time())}.mp4"
+        filename = f"C:/render/matrix_screensaver_{int(time.time())}.mp4"
         out = cv2.VideoWriter(filename, fourcc, fps, (width, height))
 
         # Initialize OpenCV window for framebuffer
